@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--===============================================================-->
+    <string name="get_all_sale_path">
+        <Data><![CDATA[
+            SELECT
+                V_SalePathRef , V_SalePathName ,COUNT(*) AS CustQty
+            FROM
+                tblTour2_SalePath,tblTourItm
+            WHERE
+                tblTour2_SalePath.V_SalePathRef = tblTourItm.CustPathNo
+            GROUP BY
+                V_SalePathRef , V_SalePathName
+            ORDER BY CAST(V_SalePathName AS INTEGER)
+        ]]></Data>
+    </string>
+    <string name="get_one_sale_path">
+        <Data><![CDATA[
+            SELECT
+                V_SalePathRef , V_SalePathName ,COUNT(*) AS CustQty
+            FROM
+                tblTour2_SalePath,tblTourItm
+            WHERE
+                tblTour2_SalePath.V_SalePathRef = tblTourItm.CustPathNo
+                AND tblTour2_SalePath.V_SalePathRef = ?
+            GROUP BY
+                V_SalePathRef , V_SalePathName
+            ORDER BY CAST(V_SalePathName AS INTEGER)
+        ]]></Data>
+    </string>
+    <!--===============================================================-->
+</resources>

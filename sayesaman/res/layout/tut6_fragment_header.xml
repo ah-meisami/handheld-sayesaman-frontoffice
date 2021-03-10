@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:background="#777777"
+                android:orientation="horizontal"
+                android:layout_height="35dp"
+                android:layout_width="fill_parent">
+
+
+    <!-- Left Panel -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_alignParentLeft="true"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerInParent="true">
+
+        <TextView
+                android:id="@+id/goodsName"
+                android:text="goodsName"
+                style="@style/textData"/>
+
+        <TextView
+                android:id="@+id/goodsName_"
+                style="@style/textLabel"
+                android:text="نام :"/>
+    </LinearLayout>
+
+
+    <!-- Center Panel -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerInParent="true">
+
+        <TextView
+                android:id="@+id/goodsId"
+                android:text="goodsId"
+                style="@style/textData"/>
+
+        <TextView
+                android:id="@+id/goodsId_"
+                style="@style/textLabel"
+                android:text="سريال :"/>
+    </LinearLayout>
+
+
+    <!-- Right Panel -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_alignParentRight="true"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerInParent="true">
+
+        <TextView
+                android:id="@+id/goodsCode"
+                android:text="goodsCode"
+                style="@style/textData"/>
+
+        <TextView
+                android:id="@+id/goodsCode_"
+                style="@style/textLabel"
+                android:text="کد :"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:id="@+id/txt_horizontal_ribbon_caption"
+            style="@style/textview.horizontal_ribbon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="20dp"
+            android:singleLine="true"
+            android:text="عنوان" />
+
+        <LinearLayout
+            android:id="@+id/buttons_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp" >
+
+            <Button
+                android:id="@+id/hribbon_btn_showall"
+                style="@style/buttons"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/white_button_vertical_ribbon"
+                android:text="همه" />
+
+            <Button
+                android:id="@+id/hribbon_btn_news"
+                style="@style/buttons"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/white_button_vertical_ribbon"
+                android:text="اخبار" />
+
+            <Button
+                android:id="@+id/hribbon_btn_shoping_help"
+                style="@style/buttons"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/white_button_vertical_ribbon"
+                android:text="راهنمای خرید" />
+
+            <Button
+                android:id="@+id/hribbon_btn_brand"
+                style="@style/buttons"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/white_button_vertical_ribbon"
+                android:text="نام های تجاری" />
+
+            <Button
+                android:id="@+id/hribbon_btn_supplier"
+                style="@style/buttons"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/white_button_vertical_ribbon"
+                android:text="تامین کنندگان" />
+        </LinearLayout>
+
+        <com.example.sktheme.ribbon.horizontalribbonmaker
+            android:id="@+id/horizontalRibbon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/buttons_layout"
+            android:layout_marginTop="10dp" >
+
+        </com.example.sktheme.ribbon.horizontalribbonmaker>
+
+        <RelativeLayout
+            android:id="@+id/footer_hriboon"
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:layout_below="@id/horizontalRibbon1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#ff035583"
+            android:visibility="visible" >
+        </RelativeLayout>
+
+    </RelativeLayout>
+    

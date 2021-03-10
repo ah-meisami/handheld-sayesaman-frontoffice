@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="42dp"
+              android:orientation="vertical"
+              android:background="#ffffff"
+        >
+
+    <View style="@style/hBorder"/>
+
+    <LinearLayout
+            android:id="@+id/dialog_report2_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+        <View style="@style/vBorder"/>
+
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/dialog_report2_itm_qty"
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="dialog_report2_order_qty"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:typeface="serif"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/dialog_report2_cust_name"
+                android:layout_width="150dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal|right"
+                android:text="dialog_report2_cust_name"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/dialog_report2_cust_code"
+                android:layout_width="95dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="dialog_report2_cust_code"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:typeface="serif"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/dialog_report2_cust_id"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="dialog_report2_cust_id"/>
+
+        <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/dialog_report2_image_cust"
+                style="@style/imagebuttonStyle"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+                android:src="@drawable/app7_user"
+                android:layout_marginRight="5dp"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/dialog_report2_row_no"
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="dialog_report2_row"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:typeface="serif"/>
+
+        <View style="@style/vBorder"/>
+    </LinearLayout>
+
+    <View style="@style/hBorder"/>
+
+</LinearLayout>

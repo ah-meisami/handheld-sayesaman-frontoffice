@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageSwitcher
+        android:id="@+id/image_switcher_spalsh_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+    </ImageSwitcher>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="100dp"
+        android:background="#55cec8c8" >
+
+        <TextView
+            android:id="@+id/txtview_loading_splash_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="11dp"
+            android:layout_toRightOf="@+id/progressBar1"
+            android:text="loading..."
+            android:textColor="#ffffffff"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/txtview_info_splash_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtview_loading_splash_screen"
+            android:layout_below="@+id/txtview_loading_splash_screen"
+            android:layout_marginTop="20dp"
+            android:text="info"
+            android:textColor="#ddffffff"
+            android:textSize="20sp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txtview_loading_splash_screen"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="18dp"
+            android:indeterminateBehavior="cycle" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

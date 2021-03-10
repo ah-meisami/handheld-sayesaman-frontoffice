@@ -1,0 +1,208 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="android:Theme.DeviceDefault">
+        <item name="android:textColor">#ff7766aa</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="textview"></style>
+    <style name="textview.product">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#ff000033</item>
+        <item name="android:gravity">center_horizontal</item>
+        
+    </style>
+    <style name="textview.horizontal_ribbon">
+        <item name="android:textSize">37sp</item>
+        <item name="android:textColor">#ff297bd0</item>
+        
+    </style>
+    <style name="textview.productview_left_side_menu">
+        <item name="android:textSize">15sp</item>
+        <item  name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">#ff297bd0</item>
+        
+    </style>
+    <style name="productview_left_side_menu">
+       <item name="android:background">@drawable/filter_icon_button_background</item>
+       <item name="android:src">@drawable/back</item>
+       <item name="android:paddingLeft">5dp</item>
+        
+    </style>
+    <style name="productview_left_side_menu_parent">
+       <item name="android:background">@drawable/productview_bottom_side_border</item>
+    </style>
+    <style name="productparent">
+        <item name="android:background">@drawable/tiny_product_parent_background</item>
+        <item name="android:shadowColor">#00000000</item>
+        <item name="android:shadowDx">6</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">0</item>
+    </style>
+    <style name="product_image">
+        <item name="android:width">300dp</item>
+        <item name="android:height">500dp</item>
+    </style>
+    <style name="textview.accordionheader">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#ff000000
+            </item></style>
+    <style name="buttons">
+        <item name="android:background">@drawable/white_button_vertical_ribbon</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:minWidth">100dp</item>
+        <item name="android:minHeight">10dp</item>
+    </style>
+    <style name="accordion">
+        <item name="android:background">#00000000</item>
+    </style>
+    <style name="accordion.footer">
+        <item name="android:height">1dp</item>
+        <item name="android:background">#ff4dadf5</item>
+        <item name="android:visibility">gone</item>
+    </style>
+	<style name="accordion.child">
+	    <item name="android:background">#330000ff</item>
+	    <item name="android:visibility">gone</item>
+	</style>
+	<style name="accordion.header">
+	    <item name="android:background">@drawable/accordion_bg</item>
+	</style>
+	<style name="accordion.header.selected">
+	    <item name="android:background">@drawable/accordion_bg_selected</item>
+	</style>
+	<style name="filter_button">
+	    <item name="android:src">@drawable/filter_icon_button</item>
+	    <item name="android:background">@drawable/filter_icon_button_background</item>
+	    <item name="android:width">20dp</item>
+	    <item name="android:height">20dp</item>
+	    <item name="android:scaleType">fitCenter</item>
+	</style>
+	<style name="home_button">
+	    <item name="android:src">@drawable/home_icon</item>
+	    <item name="android:background">@drawable/filter_icon_button_background</item>
+	    <item name="android:width">20dp</item>
+	    <item name="android:height">20dp</item>
+	    <item name="android:scaleType">fitCenter</item>
+	</style>
+	<style name="back_button">
+	    <item name="android:text">"back"</item>
+	    <item name="android:background">@drawable/back</item>
+	    <item name="android:scaleType">fitCenter</item>
+	    <item name="android:textColor">#ffffffff</item>
+	</style>
+	<style name="menu_button">
+	    <item name="android:src">@drawable/menu_show</item>
+	    <item name="android:background">@drawable/filter_icon_button_background</item>
+	    <item name="android:width">20dp</item>
+	    <item name="android:height">20dp</item>
+	    <item name="android:scaleType">fitCenter</item>
+	</style>
+	<style name="menu_button.shopbasket">
+	    <item name="android:src">@drawable/cart</item>
+	    <item name="android:background">@drawable/cart_bg_xml</item>
+	</style>
+	<style name="close">
+	    <item name="android:padding">5dp</item>
+	    <item name="android:src">@drawable/close</item>
+	    <item name="android:background">@drawable/close_button_bg</item>
+	</style>
+	<style name="menu_button.person">
+	    <item name="android:src">@drawable/person_blue</item>
+	</style>
+	<style name="menu_button.setting">
+	    <item name="android:src">@drawable/setting</item>
+	</style>
+	<style name="open_close_button">
+	    <item name="android:background">@drawable/accordion_close</item>
+	    <item name="android:width">20dp</item>
+	    <item name="android:height">20dp</item>
+	    <item name="android:scaleType">fitCenter</item>
+	</style>
+	<style name="mydialogstyle">
+	    
+    </style>
+    <style name="product_view_left_side">
+        <item name="android:background">@drawable/product_view_left_side</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+    <style name="product_view_left_side_selected">
+       <!--  <item name="android:background">@drawable/product_view_seleted_left</item> -->
+        <item name="android:visibility">invisible</item>
+    </style>
+    <style name="edit_account_textview">
+        <item name="android:textColor">#ff000000
+            </item>
+            <item name="android:textSize">17sp</item>
+            <item name="android:paddingTop">10dp</item>
+            <item name="android:paddingLeft">10dp</item>
+    </style>
+    <style name="table_technical_row_h">
+        <item name="android:gravity">right
+            </item>
+            <item  name="android:background">#ffece8e1</item>
+            <item name="android:padding">10dp</item>
+    </style>
+    <style name="table_technical_row_m">
+        <item name="android:gravity">right
+            </item>
+            <item  name="android:background">@drawable/tecnical_bottom_side_border</item>
+            <item name="android:padding">10dp</item>
+            <item name="android:paddingRight">20dp</item>
+    </style>
+     <style name="table_technical_txt_h">
+          <item name="android:paddingRight">30dp</item>
+         <item name="android:gravity">right
+            </item>
+            <item name="android:textSize">20sp</item>
+            <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000
+            </item>
+    </style>
+     <style name="table_technical_txt_m">
+         <item name="android:textSize">20sp</item>
+         <item name="android:gravity">right
+            </item>
+            <item name="android:paddingRight">40dp</item>
+        <item name="android:textColor">#ff00000f
+            </item>
+    </style>
+     <style name="table_technical_txt_value">
+         <item name="android:gravity">right
+            </item>
+        <item name="android:textColor">#ff000000
+            </item>
+            <item name="android:text">....</item>
+    </style>
+    <style name="txt_Suppliyer_type">
+        <item name="android:textColor">#ff000000</item>
+    </style>
+     <style name="imagebuttonStyle">
+        <item name="android:background">@drawable/imagebuttonbg</item>
+    </style>
+    <style name="txt_account_view">
+        <item name="android:background">@drawable/txt_bg</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:gravity">right</item>
+    </style>
+    <style name="badger">
+        <item name="android:minHeight">10dp</item>
+        <item name="android:minWidth">10dp</item>
+        <item name="android:background">@drawable/badger</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:clickable">false</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

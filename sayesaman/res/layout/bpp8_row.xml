@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="150dp"
+              android:orientation="vertical"
+              android:background="#ffffff">
+
+    <View style="@style/hBorder"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp8_price"
+                android:layout_width="80dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal|right"
+                android:text="bpp8_price"
+                android:textSize="16dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp8_sum"
+                android:layout_width="80dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="bpp8_sum"
+                android:textSize="16dp"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp8_qty"
+                android:layout_width="80dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="bpp8_qty"
+                android:textSize="16dp"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp8_name"
+                android:layout_width="200dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal|right"
+                android:text="bpp8_name"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp8_code"
+                android:layout_width="80dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="bpp8_code"
+                android:textSize="16dp"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp8_id"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="bpp8_id"/>
+
+        <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/bpp8_img"
+                android:scaleType="fitCenter"
+                android:src="@drawable/app7_user"
+                android:layout_marginRight="5dp"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp8_row_no"
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="bpp8_row_no"
+                android:textSize="16dp"/>
+
+        <View style="@style/vBorder"/>
+    </LinearLayout>
+
+    <View style="@style/hBorder"/>
+</LinearLayout>

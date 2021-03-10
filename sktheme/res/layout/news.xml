@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/productview_title_border" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp" >
+
+    <ImageView
+        android:id="@+id/imgview_suppliyer_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/news" />
+
+    <TextView
+        android:id="@+id/txtview_suppliyer_neme"
+        style="@style/txt_Suppliyer_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/imgview_suppliyer_image"
+        android:text="عنوان خبر"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txtview_suppliyer_is_suppliyer"
+        style="@style/txt_Suppliyer_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/txtview_suppliyer_neme"
+        android:layout_below="@+id/txtview_suppliyer_neme"
+        android:layout_marginTop="20dp"
+        android:text="متن خبر"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        style="@style/txt_Suppliyer_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtview_suppliyer_neme"
+        android:layout_marginRight="25dp"
+        android:layout_toLeftOf="@+id/txtview_suppliyer_neme"
+        android:text="تاریخ،گروه خبر"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/imagebuttonbg"
+        android:clickable="true"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:text="نمایش کل خبر" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/imagebuttonbg"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pdf" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+</RelativeLayout>

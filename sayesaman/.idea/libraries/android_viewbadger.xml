@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="android-viewbadger">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/android-viewbadger.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/libs/android-viewbadger.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--##############################################################################-->
+    <string name="OrderDao_getAll">
+        <Data><![CDATA[
+            SELECT DISTINCT
+                tblTourItm.*
+            FROM
+                tblTourItm , tblOrderItm
+            WHERE
+            tblTourItm.ID = tblOrderItm.HdrRef
+            AND GoodsQty<> 0
+        ]]></Data>
+    </string>
+
+    <string name="OrderDao_getOneOrderWithItemsById">
+        <Data><![CDATA[
+            SELECT * FROM tblTourItm WHERE ID = ? --5672146
+        ]]></Data>
+    </string>
+
+    <string name="OrderDao_getOrderItems">
+        <Data><![CDATA[
+            SELECT
+                  OI.ID
+                , OI.GoodsRef
+                , OI.GoodsQty
+                , GD.GoodsCode
+                , GD.GoodsName
+                , GD.GoodsGrM3
+                , GD.GoodsRow
+                , GD.TpPrize
+                , GD.GoodsPrice
+                , GD.CartonType
+                , GD.GoodsBskOk
+                , GD.V_GoodsManufacturerID
+                , GD.V_GoodsManufacturerName
+                , GD.V_GoodsMainGroupID
+                , GD.V_GoodsMainGroupName
+                , GD.V_GoodsSubGroupID
+                , GD.V_GoodsSubGroupName
+            FROM
+                tblOrderItm OI , tblGoods GD
+            WHERE
+                OI.GoodsRef = GD.ID
+                AND HdrRef = ? --5672146
+        ]]></Data>
+    </string>
+
+    <string name="OrderDao_getOrderItemsForNewOrder">
+        <Data><![CDATA[
+        SELECT
+              order_itm_Id
+            , order_itm_qty
+            , GoodsRef
+            , GoodsCode
+            , GoodsName
+            , GoodsGrM3
+            , GoodsRow
+            , TpPrize
+            , GoodsPrice
+            , CartonType
+            , GoodsBskOk
+            , V_GoodsManufacturerID
+            , V_GoodsManufacturerName
+            , V_GoodsMainGroupID
+            , V_GoodsMainGroupName
+            , V_GoodsSubGroupID
+            , V_GoodsSubGroupName
+        FROM(
+                SELECT
+                      OI.ID order_itm_Id
+                    , OI.GoodsQty order_itm_qty
+                    , GD.ID GoodsRef
+                    , GD.GoodsCode
+                    , GD.GoodsName
+                    , GD.GoodsGrM3
+                    , GD.GoodsRow
+                    , GD.TpPrize
+                    , GD.GoodsPrice
+                    , GD.CartonType
+                    , GD.GoodsBskOk
+                    , GD.V_GoodsManufacturerID
+                    , GD.V_GoodsManufacturerName
+                    , GD.V_GoodsMainGroupID
+                    , GD.V_GoodsMainGroupName
+                    , GD.V_GoodsSubGroupID
+                    , GD.V_GoodsSubGroupName
+                FROM
+                    tblGoods GD LEFT OUTER JOIN tblOrderItm OI ON OI.GoodsRef = GD.ID
+                WHERE
+                    OI.HdrRef = ?
+                AND GD.V_GoodsMainGroupID = ? AND GD.V_GoodsSubGroupID = ?
+
+                UNION ALL
+
+                SELECT
+                      0 order_itm_Id
+                    , 0 order_itm_qty
+                    , GD.ID GoodsRef
+                    , GD.GoodsCode
+                    , GD.GoodsName
+                    , GD.GoodsGrM3
+                    , GD.GoodsRow
+                    , GD.TpPrize
+                    , GD.GoodsPrice
+                    , GD.CartonType
+                    , GD.GoodsBskOk
+                    , GD.V_GoodsManufacturerID
+                    , GD.V_GoodsManufacturerName
+                    , GD.V_GoodsMainGroupID
+                    , GD.V_GoodsMainGroupName
+                    , GD.V_GoodsSubGroupID
+                    , GD.V_GoodsSubGroupName
+                FROM
+                    tblGoods GD
+                WHERE
+                        GoodsBskOk=1
+                    AND GD.ID NOT IN (SELECT GoodsRef FROM tblOrderItm where GoodsQty<>0 AND HdrRef=?)
+                    AND GD.V_GoodsMainGroupID = ? AND GD.V_GoodsSubGroupID = ?
+            )
+            ORDER BY CAST(GoodsGrM3 AS INTEGER), CAST(GoodsRow AS INTEGER)
+            ]]></Data>
+    </string>
+
+    <string name="OrderDao_getOrderStatusAll">
+        <Data><![CDATA[
+            SELECT
+                  Count(*) order_qty
+                , Sum(GoodsQty) order_sum
+                , sum(GD.GoodsPrice * GD.CartonType* OI.GoodsQty) order_price
+            FROM
+                tblOrderItm OI , tblGoods GD
+            where
+                OI.GoodsRef = GD.ID
+                and GoodsQty<>0
+
+        ]]></Data>
+    </string>
+    <!--##############################################################################-->
+    <string name="OrderDao_getReport1">
+        <Data><![CDATA[
+            SELECT
+                  GoodsRef ID
+                , tblGoods.GoodsCode
+                , tblGoods.GoodsName
+                , Count(*) order_qty
+                , Sum(GoodsQty) order_sum
+                , sum(tblGoods.GoodsPrice * tblGoods.CartonType * tblOrderItm.GoodsQty) order_price
+            FROM
+                tblOrderItm , tblGoods
+            WHERE
+                tblOrderItm.GoodsRef = tblGoods.ID
+            GROUP BY GoodsRef
+            ORDER BY Count(*) DESC
+        ]]></Data>
+    </string>
+    <string name="OrderDao_getReport2">
+        <Data><![CDATA[
+            SELECT DISTINCT
+                  tblTourItm.*
+                , tblOrderItm.GoodsQty
+            FROM
+                tblTourItm , tblOrderItm
+            WHERE
+                    tblTourItm.ID = tblOrderItm.HdrRef
+                AND GoodsQty<> 0
+                AND GoodsRef = ?
+            ORDER BY CAST(tblOrderItm.GoodsQty AS INTEGER) DESC
+            --2000000548
+        ]]></Data>
+    </string>
+    <!--##############################################################################-->
+</resources>

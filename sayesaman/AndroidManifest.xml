@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="org.sayesaman"
+          android:versionCode="13"
+          android:versionName="1.0">
+
+    <uses-sdk
+            android:minSdkVersion="8"
+            android:targetSdkVersion="17"/>
+
+    <application
+            android:name=".database.DatabaseHandler_"
+            android:label="@string/app_name"
+            android:icon="@drawable/office2"
+            android:theme="@style/AppTheme">
+        <!--======================================================================================================-->
+        <activity android:name=".chartdemo.demo.ChartDemo"/>
+        <activity android:name=".chartdemo.demo.chart.XYChartBuilder"/>
+        <activity android:name=".chartdemo.demo.chart.PieChartBuilder"/>
+        <activity android:name="org.achartengine.GraphicalActivity"/>
+        <activity android:name=".chartdemo.demo.GeneratedChartDemo"/>
+        <!--======================================================================================================-->
+        <activity android:name=".app1.SplashScreen_">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <!--======================================================================================================-->
+        <activity
+                android:name=".app2.MainActivity_"
+                android:exported="true"/>
+        <activity
+                android:name=".app3.MyActivity1_"
+                android:exported="true">
+        </activity>
+        <activity
+                android:name=".app3.MyActivity2_"
+                android:exported="true">
+        </activity>
+        <activity
+                android:name=".app3.MyActivity3_"
+                android:exported="true">
+        </activity>
+
+        <activity
+                android:name=".app4.CustomerActivity_"
+                android:exported="true">
+        </activity>
+        <activity
+                android:name=".app5.GoodsActivity_"
+                android:exported="true"/>
+
+        <activity
+                android:name=".app6.expandablelist.MainActivity_"
+                android:exported="true">
+        </activity>
+
+        <activity
+                android:name=".app7.MyActivity_"
+                android:exported="true">
+        </activity>
+
+        <activity
+                android:name=".app9.config.MyActivity_"
+                android:windowSoftInputMode="stateHidden"
+                android:exported="true">
+        </activity>
+
+        <activity
+                android:name=".bpp1.MyActivity_"
+                android:configChanges="orientation|keyboardHidden|screenSize"
+                android:exported="true">
+        </activity>
+
+        <activity
+                android:name=".bpp2.MyActivity_"
+                android:configChanges="orientation|keyboardHidden|screenSize"
+                android:exported="true">
+        </activity>
+
+        <activity
+                android:name=".bpp3.MyActivity_"
+                android:configChanges="orientation|keyboardHidden|screenSize"
+                android:exported="true">
+        </activity>
+
+        <activity
+                android:name=".bpp4.updatechecker.UpdateActivity_"
+                android:exported="true">
+        </activity>
+
+        <activity
+                android:name=".bpp5.info.MyActivity_"
+                android:configChanges="orientation|keyboardHidden|screenSize"
+                android:exported="true">
+        </activity>
+
+        <activity
+                android:name=".bpp6.MyActivity_"
+                android:configChanges="orientation|keyboardHidden|screenSize"
+                android:exported="true">
+        </activity>
+
+        <activity
+                android:name=".bpp7.OrderMainGroup_"
+                android:configChanges="orientation|keyboardHidden|screenSize"
+                android:exported="true">
+        </activity>
+        <activity
+                android:name=".bpp7.OrderSubGroup_"
+                android:configChanges="orientation|keyboardHidden|screenSize"
+                android:exported="true">
+        </activity>
+        <activity
+                android:name=".bpp7.OrderGoods_"
+                android:configChanges="orientation|keyboardHidden|screenSize"
+                android:exported="true">
+        </activity>
+        <activity
+                android:name=".bpp7.DamageGoods_"
+                android:configChanges="orientation|keyboardHidden|screenSize"
+                android:exported="true">
+        </activity>
+        <activity
+                android:name=".bpp7.DamageMainGroup_"
+                android:configChanges="orientation|keyboardHidden|screenSize"
+                android:exported="true">
+        </activity>
+        <activity
+                android:name=".bpp7.DamageSubGroup_"
+                android:configChanges="orientation|keyboardHidden|screenSize"
+                android:exported="true">
+        </activity>
+        <activity
+                android:name=".keypad.Keypad_"
+                android:theme="@android:style/Theme.Dialog"
+                android:configChanges="orientation|keyboardHidden|screenSize"
+                android:exported="true">
+        </activity>
+        <activity
+                android:name=".bpp8.MyActivity_"
+                android:configChanges="orientation|keyboardHidden|screenSize"
+                android:exported="true">
+        </activity>
+
+        <activity
+                android:name=".tut1.sakhtemankala.MyActivity_"
+                android:exported="true">
+        </activity>
+        <activity
+                android:name=".tut2.dynamicui.MyActivity"
+                android:exported="true">
+        </activity>
+
+        <!--======================================================================================================-->
+        <!-- Sakhteman Kala -->
+        <activity
+                android:name=".tut3.sakhtemankala.scrollview.horizontal.MyActivity"
+                android:exported="true">
+        </activity>
+        <activity
+                android:name=".tut7.sakhtemankala.scrollview.two.way.MyActivity_"
+                android:exported="true">
+        </activity>
+        <activity
+                android:name=".tut8.thread.Test_"
+                android:configChanges="orientation|keyboardHidden|screenSize"
+                android:exported="true">
+        </activity>
+        <!--======================================================================================================-->
+
+        <!--======================================================================================================-->
+        <!-- you have to run tut 4 before tut5-->
+        <activity
+                android:name=".tut4.path.PageViewActivity_"
+                android:exported="true"
+                android:theme="@style/Theme.PageIndicatorDefaults">
+        </activity>
+        <activity
+                android:name=".tut5.cust.PageViewActivity_"
+                android:exported="true"
+                android:theme="@style/Theme.PageIndicatorDefaults">
+        </activity>
+        <activity
+                android:name=".tut6.goods.PageViewActivity_"
+                android:exported="true"
+                android:theme="@style/Theme.PageIndicatorDefaults">
+        </activity>
+        <!--======================================================================================================-->
+        <activity
+                android:name=".util.viewpagerimagegallery.MainActivity"
+                android:theme="@android:style/Theme.Black.NoTitleBar">
+        </activity>
+        <!--======================================================================================================-->
+        <activity
+                android:name=".util.gridviewimage.AndroidGridLayoutActivity"
+                android:theme="@android:style/Theme.Black.NoTitleBar">
+        </activity>
+
+        <!-- FullImageActivity -->
+        <activity
+                android:name=".util.gridviewimage.FullImageActivity"
+                android:theme="@android:style/Theme.Black.NoTitleBar">
+        </activity>
+        <!--======================================================================================================-->
+        <activity
+                android:name=".app3.MyActivity1"
+                android:exported="true"
+                android:theme="@android:style/Theme.Black.NoTitleBar">
+        </activity>
+        <!--======================================================================================================-->
+    </application>
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+</manifest>

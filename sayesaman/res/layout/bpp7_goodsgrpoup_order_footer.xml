@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="#fff6b2">
+
+    <View style="@style/hBorder"/>
+
+    <LinearLayout
+            android:id="@+id/bpp7_footer"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#DBDBFF"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp7_footer6"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="10dip"
+                android:gravity="center_vertical|center_horizontal|right"
+                android:textSize="16dp"
+                android:text="0"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp7_footer5"
+                android:layout_width="115dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="16dp"
+                android:text="0"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp7_footer4"
+                android:layout_width="115dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="16dp"
+                android:text="0"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp7_footer3"
+                android:text="0"
+                android:layout_width="115dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp7_footer2"
+                android:text="مجموع"
+                android:layout_width="320dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp7_footer1"
+                android:text="رديف"
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+
+        <View style="@style/vBorder"/>
+    </LinearLayout>
+
+    <View style="@style/hBorder"/>
+</LinearLayout>

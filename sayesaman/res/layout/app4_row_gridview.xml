@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="horizontal"
+              android:gravity="right"
+              android:layout_gravity="right">
+    <TextView
+            android:id="@+id/CustAddress"
+            android:layout_height="wrap_content"
+            android:layout_width="800dp"
+            android:text="CustAddress"
+            android:gravity="right"
+            android:layout_gravity="right"
+            android:textColor="#FFFFFF" />
+
+    <TextView
+            android:id="@+id/CustPhone"
+            android:layout_height="30dp"
+            android:layout_width="100dp"
+            android:text="CustPhone"
+            android:gravity="left"
+            android:layout_gravity="left"
+            android:textColor="#33FFFF"
+            android:layout_marginLeft="10dp"
+            />
+
+    <TextView
+            android:id="@+id/CustRealName"
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:text="CustRealName"
+            android:gravity="right"
+            android:layout_gravity="right"
+            android:textColor="#CCFF00"/>
+
+    <TextView
+            android:id="@+id/CustName"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:text="CustName"
+            android:gravity="right"
+            android:layout_gravity="right"
+            android:textColor="#FFFFFF"/>
+    <TextView
+            android:id="@+id/CustCode"
+            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:text="CustCode"
+            android:gravity="right"
+            android:layout_gravity="right"
+            android:textColor="#CCFF00"/>
+    <TextView
+            android:id="@+id/RowNum"
+            android:layout_height="30dp"
+            android:layout_width="50dp"
+            android:text="RowNum"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#FFCC00"/>
+</LinearLayout>

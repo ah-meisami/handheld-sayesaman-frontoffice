@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:background="#777777"
+                android:orientation="horizontal"
+                android:layout_height="35dp"
+                android:layout_width="fill_parent">
+
+
+    <!-- Left Panel -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_alignParentLeft="false"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerInParent="true"
+                  android:layout_alignParentRight="true"
+                  android:id="@+id/linearLayout">
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/salePathCustQty"
+                android:text="salePathCustQty"
+                style="@style/textData"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/salePathCustQty_"
+                style="@style/textLabel"
+                android:text="تعداد مشتری :"/>
+    </LinearLayout>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="144dp"
+            android:src="@drawable/person_blue"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="false"/>
+
+
+    <!-- Center Panel -->
+
+
+    <!-- Right Panel -->
+</RelativeLayout>

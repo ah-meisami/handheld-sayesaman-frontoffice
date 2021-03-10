@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+android horizontal scroll view
+http://stackoverflow.com/questions/12900777/android-horizontal-scroll-view
+-->
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:id="@+id/horizontalScrollView1"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:fillViewport="true">
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:background="#ff244452">
+
+        <!--============================================================================================================-->
+        <LinearLayout
+                android:id="@+id/tut3_list_goods"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:background="#ff244452">
+
+<!--
+            <include
+                    android:layout_alignParentTop="true"
+                    layout="@layout/tut3_goods"/>
+-->
+
+        </LinearLayout>
+        <!--============================================================================================================-->
+        <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                          android:id="@+id/tut3_list_property_head"
+                          android:orientation="vertical"
+                          android:layout_gravity="center"
+                          android:gravity="center"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:background="#fffffd7c">
+            </LinearLayout>
+        </ScrollView>
+        <!--============================================================================================================-->
+    </LinearLayout>
+</HorizontalScrollView>

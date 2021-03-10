@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:custom="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="#fff6b2">
+
+    <View style="@style/hBorder"/>
+
+    <LinearLayout
+            android:id="@+id/bpp6_header"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#DBDBFF"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp6_header6"
+                android:text="مبلغ ضایعات"
+                custom:font="Titr"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal|right"
+                android:layout_marginRight="10dp"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp6_header5"
+                android:text="مبلغ درخواست"
+                custom:font="Titr"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal|right"
+                android:layout_marginRight="10dp"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp6_header4"
+                android:text="ضايعات"
+                custom:font="Titr"
+                android:layout_width="185dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal|right"
+                android:layout_marginRight="10dp"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp6_header3"
+                android:layout_width="150dp"
+                android:layout_height="fill_parent"
+                android:text="درخواست"
+                custom:font="Titr"
+                android:gravity="center_vertical|center_horizontal"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp6_header2"
+                android:layout_width="266dp"
+                android:layout_height="fill_parent"
+                android:text="مشتري"
+                custom:font="Titr"
+                android:gravity="center_vertical|center_horizontal"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp6_header1"
+                android:text="رديف"
+                custom:font="Titr"
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"/>
+
+        <View style="@style/vBorder"/>
+    </LinearLayout>
+    <View style="@style/hBorder"/>
+</LinearLayout>

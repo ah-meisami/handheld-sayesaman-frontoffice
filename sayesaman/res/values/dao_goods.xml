@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="GoodsDao_getAll">
+        <Data>
+            <![CDATA[
+        SELECT
+              ID
+            , GoodsCode
+            , GoodsName
+            , GoodsGrM3
+            , GoodsRow
+            , TpPrize
+            , GoodsPrice
+            , CartonType
+            , GoodsBskOk
+            , V_GoodsManufacturerID
+            , V_GoodsManufacturerName
+            , V_GoodsMainGroupID
+            , V_GoodsMainGroupName
+            , V_GoodsSubGroupID
+            , V_GoodsSubGroupName
+        FROM
+            tblGoods t1
+        WHERE GoodsBskOk=1 Order by GoodsCode
+        ]]>
+        </Data>
+    </string>
+
+    <string name="GoodsDao_getOneById">
+        <Data>
+            <![CDATA[
+        SELECT
+              ID
+            , GoodsCode
+            , GoodsName
+            , GoodsGrM3
+            , GoodsRow
+            , TpPrize
+            , GoodsPrice
+            , CartonType
+            , GoodsBskOk
+            , V_GoodsManufacturerID
+            , V_GoodsManufacturerName
+            , V_GoodsMainGroupID
+            , V_GoodsMainGroupName
+            , V_GoodsSubGroupID
+            , V_GoodsSubGroupName
+
+            ,Price1 DamagePrice1
+            ,Price2 DamagePrice2
+            ,Price3 DamagePrice3
+            ,Price4 DamagePrice4
+            ,Price5 DamagePrice5
+        FROM
+            tblGoods t1
+        Order by GoodsCode AND ID = ?
+        ]]>
+        </Data>
+    </string>
+
+    <string name="GoodsDao_getAllBySubGroup">
+        <Data>
+            <![CDATA[
+        SELECT
+              ID
+            , GoodsCode
+            , GoodsName
+            , GoodsGrM3
+            , GoodsRow
+            , TpPrize
+            , GoodsPrice
+            , CartonType
+            , GoodsBskOk
+            , V_GoodsManufacturerID
+            , V_GoodsManufacturerName
+            , V_GoodsMainGroupID
+            , V_GoodsMainGroupName
+            , V_GoodsSubGroupID
+            , V_GoodsSubGroupName
+        FROM
+            tblGoods t1
+        WHERE
+            V_GoodsSubGroupID = ?
+        Order by GoodsCode
+        ]]>
+        </Data>
+    </string>
+</resources>

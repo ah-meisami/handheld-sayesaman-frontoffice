@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/app_layout"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <!-- SCENE -->
+    <RelativeLayout
+            android:id="@+id/scene_layout"
+            android:drawingCacheQuality="low"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <org.sayesaman.tut7.sakhtemankala.scrollview.two.way.TwoDScrollView
+                android:id="@+id/scene_scroller"
+                android:drawingCacheQuality="low"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <RelativeLayout
+                    android:id="@+id/scene_container"
+                    android:drawingCacheQuality="low"
+                    android:layout_width="1440dip"
+                    android:layout_height="962dip">
+
+                <ImageView
+                        android:id="@+id/scene_background"
+                        android:drawingCacheQuality="low"
+                        android:src="@drawable/app1_bg_land"
+                        android:layout_width="1440dip"
+                        android:layout_height="962dip"/>
+            </RelativeLayout>
+        </org.sayesaman.tut7.sakhtemankala.scrollview.two.way.TwoDScrollView>
+    </RelativeLayout>
+</RelativeLayout>
+

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--===============================================================-->
+    <string name="tour_id">
+        سریال
+    </string>
+    <string name="tour_no">
+        شماره تور
+    </string>
+    <string name="tour_date">
+        تاریخ تور
+    </string>
+    <string name="tour_dealerCode">
+        کد فروشنده
+    </string>
+    <string name="tour_dealerPhone">
+        تلفن نام فروشنده
+    </string>
+    <string name="tour_dealerName">
+        نام فروشنده
+    </string>
+    <string name="tour_dealerSuperName">
+        نام سرپرست
+    </string>
+    <string name="tour_dealerSaleLeveId">
+        سریال نوع فعالیت فروشنده
+    </string>
+    <string name="tour_dealerSaleLeveName">
+        نوع فعالیت فروشنده
+    </string>
+    <string name="tour_mainPathId">
+        سریال مسیر اصلی فروش
+    </string>
+    <string name="tour_mainPathName">
+        مسیر اصلی فروش
+    </string>
+    <string name="tour_maxAcceptableOrders">
+        حداکثر تعداد درخواست مجاز
+    </string>
+    <string name="tour_minPriceSale">
+        حداقل مبلغ درخواست مجاز
+    </string>
+    <string name="tour_maxPriceWaste">
+        حداکثر مبلغ ضایعات مجاز
+    </string>
+
+    <!--===============================================================-->
+    <string name="get_tour">
+        SELECT
+          ID
+        , TourNo
+        , TourDate
+
+        , SaleZoneName
+        , SaleAreaName
+        , SalePathName
+        , Message
+        , IMEI
+
+        , DealerName
+        , PersonnelCode
+        , PersonnelPhone
+        , SupervisorName
+
+        , V_SaleZoneRef
+        , V_SaleAreaRef
+        , V_DealerRef
+
+        , V_CustLevelRef
+        , V_CustLevelName
+
+        , V_Main_SalePathRef
+        , V_Main_SalePathName
+
+        , MaxOrder
+        , MinPriceSale
+        , MaxPriceWaste
+        FROM tblTourHdr t1
+    </string>
+    <!--===============================================================-->
+</resources>

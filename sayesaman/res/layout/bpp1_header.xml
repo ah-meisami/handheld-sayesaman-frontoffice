@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="40dp"
+              android:orientation="vertical"
+              android:background="#ffffff">
+
+    <View style="@style/hBorder"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:showDividers="beginning|middle|end"
+                  android:background="#DBDBFF"
+                  android:measureWithLargestChild="false"
+                  android:gravity="right"
+                  android:minHeight="50dp">
+        <!--================================================================================================================================-->
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp1_header_qty_residue"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:textSize="17dp"
+                android:textColor="#000000"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="مانده"
+                android:layout_gravity="center"
+                android:layout_weight="1"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp1_header_qty_percent"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:textSize="17dp"
+                android:textColor="#000000"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="درصد تحقق"
+                android:textIsSelectable="false"
+                android:layout_gravity="center"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp1_header_qty_sale"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:textSize="17dp"
+                android:textColor="#000000"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="فروش"
+                android:layout_gravity="center"
+                android:textIsSelectable="false"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp1_header_qty_goal"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:textSize="17dp"
+                android:textColor="#000000"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="هدف"
+                android:layout_gravity="center"
+                android:textIsSelectable="false"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp1_header_name"
+                android:layout_width="400dp"
+                android:layout_height="fill_parent"
+                android:textSize="17dp"
+                android:textColor="#000000"
+                android:gravity="center_vertical|right"
+                android:text="نام کالا"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp1_header_group_name"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:textSize="17dp"
+                android:textColor="#fffe50"
+                android:gravity="center_vertical|right"
+                android:text="شربت"
+                android:layout_gravity="center"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp1_header_code"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:textSize="17dp"
+                android:textColor="#000000"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="کد کالا"
+                android:layout_gravity="center"/>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bpp1_header_image"
+                android:layout_gravity="center"
+                android:src="@drawable/compare_xml"
+                android:layout_marginRight="5dp"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp1_header_no"
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:textSize="17dp"
+                android:textColor="#000000"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="رديف"
+                android:layout_gravity="center"/>
+
+        <View style="@style/vBorder"/>
+        <!--================================================================================================================================-->
+    </LinearLayout>
+
+    <View style="@style/hBorder"/>
+</LinearLayout>

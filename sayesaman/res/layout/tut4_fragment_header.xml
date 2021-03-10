@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:background="#777777"
+                android:orientation="horizontal"
+                android:layout_height="35dp"
+                android:layout_width="fill_parent">
+
+
+    <!-- Left Panel -->
+
+
+    <!-- Center Panel -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+            >
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/salePathId"
+                android:text="salePathId"
+                style="@style/textData"/>
+
+    </LinearLayout>
+
+
+    <!-- Right Panel -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_alignParentRight="true"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerInParent="true">
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/salePathName"
+                android:text="salePathName"
+                style="@style/textData"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/salePathName_"
+                style="@style/textLabel"
+                android:text="مسير :"/>
+    </LinearLayout>
+</RelativeLayout>

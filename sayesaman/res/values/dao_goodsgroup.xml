@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--===============================================================-->
+    <string name="GoodsGroupDao_getList1">
+        <Data><![CDATA[
+            select distinct V_GoodsMainGroupID id, V_GoodsMainGroupName name from tblGoods
+        ]]></Data>
+    </string>
+    <string name="GoodsGroupDao_getList2">
+        <Data><![CDATA[
+            select distinct V_GoodsSubGroupID id, V_GoodsSubGroupName name from tblGoods WHERE V_GoodsMainGroupID=?
+        ]]></Data>
+    </string>
+    <!--===============================================================-->
+    <string name="GoodsGroupDao_getList4CreateNew_order1">
+        <Data><![CDATA[
+            SELECT
+                  V_GoodsMainGroupID  id
+                , V_GoodsMainGroupName  name
+                , Count(*) noOfProducts
+            FROM tblGoods WHERE GoodsBskOk=1
+            GROUP BY V_GoodsMainGroupID , V_GoodsMainGroupName
+            ORDER BY Count(*) desc
+        ]]></Data>
+    </string>
+
+    <string name="GoodsGroupDao_getList4CreateNew_order2">
+        <Data><![CDATA[
+            SELECT
+                  V_GoodsSubGroupID  id
+                , V_GoodsSubGroupName  name
+                , Count(*) noOfProducts
+            FROM tblGoods WHERE GoodsBskOk=1 AND V_GoodsMainGroupID=?
+            GROUP BY V_GoodsSubGroupID , V_GoodsSubGroupName
+            ORDER BY Count(*) desc
+        ]]></Data>
+    </string>
+
+    <string name="GoodsGroupDao_getList4CreateNew_damage1">
+        <Data><![CDATA[
+            SELECT
+                  V_GoodsMainGroupID  id
+                , V_GoodsMainGroupName  name
+                , Count(*) noOfProducts
+            FROM tblGoods WHERE TpPrize=1
+            GROUP BY V_GoodsMainGroupID , V_GoodsMainGroupName
+            ORDER BY Count(*) desc
+        ]]></Data>
+    </string>
+
+    <string name="GoodsGroupDao_getList4CreateNew_damage2">
+        <Data><![CDATA[
+            SELECT
+                  V_GoodsSubGroupID  id
+                , V_GoodsSubGroupName  name
+                , Count(*) noOfProducts
+            FROM tblGoods WHERE TpPrize=1 AND V_GoodsMainGroupID=?
+            GROUP BY V_GoodsSubGroupID , V_GoodsSubGroupName
+            ORDER BY Count(*) desc
+        ]]></Data>
+    </string>
+    <!--===============================================================-->
+    <string name="GoodsGroupDao_getOrderStatus4MainGoodsGroup">
+        <Data><![CDATA[
+            SELECT
+                  GD.V_GoodsMainGroupID
+                , Count(*) As order_qty
+                , Sum(OI.GoodsQty) As order_sum
+                , Sum(OI.GoodsQty * GD.CartonType * GD.GoodsPrice) As order_price
+            FROM
+                tblOrderItm OI ,tblGoods GD
+            WHERE
+                    GD.ID = OI.GoodsRef
+                AND OI.HdrRef = ?
+                AND GD.V_GoodsMainGroupID = ?
+            GROUP BY
+                GD.V_GoodsMainGroupID
+        ]]></Data>
+    </string>
+    <string name="GoodsGroupDao_getOrderStatus4SubGoodsGroup">
+        <Data><![CDATA[
+            SELECT
+                  GD.V_GoodsSubGroupID
+                , Count(*) As order_qty
+                , Sum(OI.GoodsQty) As order_sum
+                , Sum(OI.GoodsQty * GD.CartonType * GD.GoodsPrice) As order_price
+            FROM
+                tblOrderItm OI ,tblGoods GD
+            WHERE
+                    GD.ID = OI.GoodsRef
+                AND OI.HdrRef = ?
+                AND GD.V_GoodsSubGroupID = ?
+            GROUP BY
+                GD.V_GoodsSubGroupID
+        ]]></Data>
+    </string>
+    <!--===============================================================-->
+    <string name="GoodsGroupDao_getOrderStatusById">
+        <Data><![CDATA[
+            SELECT
+                  Count(*) order_qty
+                , Sum(GoodsQty) order_sum
+                , sum(GD.GoodsPrice * GD.CartonType* OI.GoodsQty) order_price
+            FROM
+                tblOrderItm OI , tblGoods GD
+            where
+                    OI.GoodsRef = GD.ID
+                AND GoodsQty<>0
+                AND OI.HdrRef = ?
+        ]]></Data>
+    </string>
+
+    <string name="GoodsGroupDao_getOrderStatusByIdAndMainGoodsGroup">
+        <Data><![CDATA[
+            SELECT
+                  Count(*) order_qty
+                , Sum(GoodsQty) order_sum
+                , sum(GD.GoodsPrice * GD.CartonType* OI.GoodsQty) order_price
+            FROM
+                tblOrderItm OI , tblGoods GD
+            where
+                    OI.GoodsRef = GD.ID
+                AND GoodsQty<>0
+                AND OI.HdrRef = ?
+                AND GD.V_GoodsMainGroupID = ?
+        ]]></Data>
+    </string>
+    <!--===============================================================-->
+    <string name="GoodsGroupDao_getCountGoods4NewOrder">
+        <Data><![CDATA[
+            SELECT
+                  Count(*) order_qty
+            FROM
+                tblGoods GD
+            WHERE GoodsBskOk=1
+        ]]></Data>
+    </string>
+
+    <string name="GoodsGroupDao_getCountGoods4NewDamage">
+        <Data><![CDATA[
+            SELECT
+                  Count(*) damage_qty
+            FROM
+                tblGoods GD
+            WHERE TpPrize=1
+        ]]></Data>
+    </string>
+
+    <string name="GoodsGroupDao_getCountGoods4NewOrderByMainGoodsGroup">
+        <Data><![CDATA[
+            SELECT
+                  Count(*) order_qty
+            FROM
+                tblGoods GD
+            WHERE
+                    GD.GoodsBskOk=1
+                AND GD.V_GoodsMainGroupID = ?
+
+        ]]></Data>
+    </string>
+    <string name="GoodsGroupDao_getCountGoods4NewDamageByMainGoodsGroup">
+        <Data><![CDATA[
+            SELECT
+                  Count(*) order_qty
+            FROM
+                tblGoods GD
+            WHERE
+                    GD.TpPrize=1
+                AND GD.V_GoodsMainGroupID = ?
+
+        ]]></Data>
+    </string>
+
+    <!--===============================================================-->
+    <string name="GoodsGroupDao_getOrderStatusByIdAndMainGoodsGroupAndSubGoodsGroup">
+        <Data><![CDATA[
+            SELECT
+                  Count(*) order_qty
+                , Sum(GoodsQty) order_sum
+                , sum(GD.GoodsPrice * GD.CartonType* OI.GoodsQty) order_price
+            FROM
+                tblOrderItm OI , tblGoods GD
+            where
+                    OI.GoodsRef = GD.ID
+                AND GoodsQty<>0
+                AND OI.HdrRef = ?
+                AND GD.V_GoodsMainGroupID = ?
+                AND GD.V_GoodsSubGroupID = ?
+        ]]></Data>
+    </string>
+    <!--===============================================================-->
+
+</resources>

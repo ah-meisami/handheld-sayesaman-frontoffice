@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:background="#fffffbc6"
+                android:orientation="vertical"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+    <!--================================================================================================================================-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/layoutid"
+                  android:layout_alignParentStart="false"
+                  android:layout_alignParentEnd="false"
+                  android:textAlignment="center">
+
+        <TextView
+                android:id="@+id/caption_head"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textColor="#a92a0f"
+                android:text="نوع و کیفیت"
+                android:gravity="center_horizontal"/>
+    </LinearLayout>
+    <!--================================================================================================================================-->
+
+    <!--================================================================================================================================-->
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutid">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:id="@+id/tut3_list_property_item"
+                      android:orientation="vertical"
+                      android:layout_gravity="center"
+                      android:gravity="center"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:background="#ff9879ff">
+        </LinearLayout>
+<!--
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:textColor="#ffff6c4a"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="مقدار ویژگی"
+                android:layout_centerInParent="true"/>
+-->
+
+    </RelativeLayout>
+    <!--================================================================================================================================-->
+</RelativeLayout>

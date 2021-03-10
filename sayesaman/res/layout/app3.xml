@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- #########################################################################################
+how to set the header and footer for linear layout in android
+http://stackoverflow.com/questions/4732634/how-to-set-the-header-and-footer-for-linear-layout-in-android
+######################################################################################### -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+    <!-- HEADER -->
+    <include
+            android:id="@+id/top_header"
+            android:layout_alignParentTop="true"
+            layout="@layout/app3_header"/>
+
+    <!-- FOOTER -->
+    <LinearLayout
+            android:id="@+id/bottom_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true">
+        <!-- menu bar -->
+        <include layout="@layout/app3_footer"/>
+    </LinearLayout>
+
+    <!-- MAIN PART -->
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/top_header"
+            android:layout_above="@id/bottom_menu"
+            android:layout_weight="1"
+            android:background="#EAEAEA"
+            android:foregroundGravity="center_vertical|center_horizontal">
+
+        <LinearLayout
+                android:id="@+id/app3_list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:gravity="center_vertical|center_horizontal">
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

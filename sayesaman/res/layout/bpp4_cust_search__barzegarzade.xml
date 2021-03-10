@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white" >
+
+    <!-- This is the main content -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="15dp"
+        android:background="@drawable/border_rounded_green"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="7dp"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:gravity="center_vertical|right"
+                            android:orientation="horizontal" >
+
+                            <EditText
+                                android:id="@+id/bpp3_custom_code"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/edittext_rounded_corners"
+                                android:gravity="right"
+                                android:minHeight="20dp"
+                                android:minWidth="250dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="12345486" />
+
+                            <TextView
+                                android:id="@+id/bpp3_custom_code_"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:gravity="right"
+                                android:minHeight="20dp"
+                                android:minWidth="250dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="کد مشتری" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:gravity="center_vertical|right"
+                            android:orientation="horizontal" >
+
+                            <EditText
+                                android:id="@+id/bpp3_custom_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/edittext_rounded_corners"
+                                android:gravity="right"
+                                android:minHeight="20dp"
+                                android:minWidth="250dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="حمید قصابی" />
+
+                            <TextView
+                                android:id="@+id/bpp3_custom_name_"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:gravity="right"
+                                android:minHeight="20dp"
+                                android:minWidth="250dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="نام مشتری" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:gravity="center_vertical|right"
+                            android:orientation="horizontal" >
+
+                            <EditText
+                                android:id="@+id/bpp3_custom_real_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/edittext_rounded_corners"
+                                android:gravity="right"
+                                android:minHeight="20dp"
+                                android:minWidth="250dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="عمده فروشی قصابی" />
+
+                            <TextView
+                                android:id="@+id/bpp3_custom_real_name_"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:gravity="right"
+                                android:minHeight="20dp"
+                                android:minWidth="250dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="نام فروشگاه" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:gravity="center_vertical|right"
+                            android:orientation="horizontal" >
+
+                            <EditText
+                                android:id="@+id/bpp3_custom_phone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/edittext_rounded_corners"
+                                android:gravity="right"
+                                android:minHeight="20dp"
+                                android:minWidth="250dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="021-22255366" />
+
+                            <TextView
+                                android:id="@+id/bpp3_custom_phone_"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:gravity="right"
+                                android:minHeight="20dp"
+                                android:minWidth="250dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="تلفن" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:gravity="center_vertical|right"
+                            android:orientation="horizontal" >
+
+                            <EditText
+                                android:id="@+id/bpp3_custom__mobile"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/edittext_rounded_corners"
+                                android:gravity="right"
+                                android:minHeight="20dp"
+                                android:minWidth="250dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="0912-1122334" />
+
+                            <TextView
+                                android:id="@+id/bpp3_custom_moble_"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:gravity="right"
+                                android:minHeight="20dp"
+                                android:minWidth="250dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="موبایل" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:gravity="center_vertical|right"
+                            android:orientation="horizontal" >
+
+                            <EditText
+                                android:id="@+id/bpp3_custom_address"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/edittext_rounded_corners"
+                                android:gravity="right"
+                                android:minHeight="20dp"
+                                android:minWidth="250dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="تهران-خ بهارستان-خ ملت- عمده فروشان بازار" />
+
+                            <TextView
+                                android:id="@+id/bpp3_custom_address_"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:gravity="right"
+                                android:minHeight="20dp"
+                                android:minWidth="250dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="آدرس" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:gravity="center_vertical|right"
+                            android:orientation="horizontal" >
+
+                            <EditText
+                                android:id="@+id/bpp3_custom_act"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/edittext_rounded_corners"
+                                android:gravity="right"
+                                android:minHeight="20dp"
+                                android:minWidth="250dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="عمده فروشی" />
+
+                            <TextView
+                                android:id="@+id/bpp3_custom_act_"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:gravity="right"
+                                android:minHeight="20dp"
+                                android:minWidth="250dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="نوع فعالیت" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:gravity="center_vertical|right"
+                            android:orientation="horizontal" >
+
+                            <EditText
+                                android:id="@+id/bpp3_custom_ctgr"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/edittext_rounded_corners"
+                                android:gravity="right"
+                                android:minHeight="20dp"
+                                android:minWidth="250dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="A" />
+
+                            <TextView
+                                android:id="@+id/bpp3_custom_ctgr_"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:gravity="right"
+                                android:minHeight="20dp"
+                                android:minWidth="250dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="گروه 1" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:gravity="center_vertical|right"
+                            android:orientation="horizontal" >
+
+                            <EditText
+                                android:id="@+id/bpp3_custom_lavel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/edittext_rounded_corners"
+                                android:gravity="right"
+                                android:minHeight="20dp"
+                                android:minWidth="250dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="عمده فروشی" />
+
+                            <TextView
+                                android:id="@+id/bpp3_custom_level_"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:gravity="right"
+                                android:minHeight="20dp"
+                                android:minWidth="250dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="گروه 2" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:gravity="center_vertical|right"
+                            android:orientation="horizontal" >
+
+                            <EditText
+                                android:id="@+id/bpp3_custom_pelak"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/edittext_rounded_corners"
+                                android:gravity="right"
+                                android:minHeight="20dp"
+                                android:minWidth="250dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="50" />
+
+                            <TextView
+                                android:id="@+id/bpp3_custom_pelak_"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:gravity="right"
+                                android:minHeight="20dp"
+                                android:minWidth="250dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="ردیف ویزیت" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:gravity="center_horizontal|right"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:gravity="right"
+                                android:minHeight="20dp"
+                                android:minWidth="250dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="" />
+
+                            <Button
+                                android:id="@+id/bpp3_customer_search"
+                                android:layout_width="130dp"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginBottom="20dp"
+                                android:background="@drawable/edittext_rounded_corners"
+                                android:gravity="center"
+                                android:text="جستجو" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- This is the title label -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="65dp"
+            android:background="@drawable/legend"
+            android:fadingEdge="horizontal|vertical"
+            android:padding="5dp"
+            android:text="جستجو ی مشتری"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+</RelativeLayout>

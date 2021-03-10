@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--##############################################################################-->
+    <string name="DamageDao_getAll">
+        <Data><![CDATA[
+            SELECT DISTINCT
+                tblTourItm.*
+            FROM
+                tblTourItm , tblWasteItm
+            WHERE
+            tblTourItm.ID = tblWasteItm.HdrRef
+            AND GoodsQty<> 0
+        ]]></Data>
+    </string>
+
+    <string name="DamageDao_getOneOrderWithItemsById">
+        <Data><![CDATA[
+            SELECT * FROM tblTourItm WHERE ID = ? --5672146
+        ]]></Data>
+    </string>
+
+    <string name="DamageDao_getDamageItemsForNewDamage">
+        <Data><![CDATA[
+        SELECT
+              damage_itm_id
+            , damage_itm_qty
+            , damage_itm_ret_cause_ref
+            , damage_itm_ret_cause_name
+
+            , GoodsRef
+            , GoodsCode
+            , GoodsName
+            , GoodsGrM3
+            , GoodsRow
+
+            , Price1
+            , Price2
+            , Price3
+            , Price4
+            , Price5
+        FROM(
+                SELECT
+                      OI.ID             damage_itm_id
+                    , OI.GoodsQty       damage_itm_qty
+                    , OI.RetCauseRef    damage_itm_ret_cause_ref
+                    , RC.Name		    damage_itm_ret_cause_name
+
+                    , GD.ID GoodsRef
+                    , GD.GoodsCode
+                    , GD.GoodsName
+                    , GD.GoodsGrM3
+                    , GD.GoodsRow
+
+                    , GD.Price1
+                    , GD.Price2
+                    , GD.Price3
+                    , GD.Price4
+                    , GD.Price5
+                FROM
+                    tblGoods GD , tblWasteItm OI , tblRetCause RC
+                WHERE
+                    OI.RetCauseRef = RC.ID
+                AND OI.V_GoodsRef = GD.ID
+                AND OI.HdrRef = ?
+                AND GD.V_GoodsMainGroupID = ? AND GD.V_GoodsSubGroupID = ?
+
+            UNION ALL
+
+                SELECT
+                      0     damage_itm_id
+                    , 0     damage_itm_qty
+                    , \'\'  damage_itm_ret_cause_ref
+                    , \'\'  damage_itm_ret_cause_name
+
+                    , GD.ID GoodsRef
+                    , GD.GoodsCode
+                    , GD.GoodsName
+                    , GD.GoodsGrM3
+                    , GD.GoodsRow
+
+                    , GD.Price1
+                    , GD.Price2
+                    , GD.Price3
+                    , GD.Price4
+                    , GD.Price5
+                FROM
+                    tblGoods GD
+                WHERE
+                    TpPrize=1
+                    AND GD.ID NOT IN (SELECT V_GoodsRef FROM tblWasteItm where GoodsQty<>0 AND HdrRef=?)
+                    AND GD.V_GoodsMainGroupID = ? AND GD.V_GoodsSubGroupID = ?
+            )
+            ORDER BY CAST(GoodsGrM3 AS INTEGER), CAST(GoodsRow AS INTEGER)
+        ]]></Data>
+    </string>
+
+    <string name="DamageDao_getOrderItems">
+        <Data><![CDATA[
+            SELECT
+                  tblWasteItm.ID
+				, tblWasteItm.RetCauseRef RetCauseRef
+                , RC.Name		 RetCauseName
+                , tblWasteItm.V_GoodsRef  GoodsRef
+                , tblWasteItm.GoodsQty
+            FROM
+                tblWasteItm , tblRetCause RC
+            WHERE
+                    tblWasteItm.RetCauseRef = RC.ID
+                AND HdrRef = ? --5671762
+        ]]></Data>
+    </string>
+
+    <string name="DamageDao_getOrderStatusAll">
+        <Data><![CDATA[
+            SELECT V_GoodsRef GoodsRef , GoodsQty  , RetCauseRef
+            FROM
+                tblWasteItm
+            where
+                GoodsQty<>0 
+        ]]></Data>
+    </string>
+    <string name="DamageDao_getDamageStatusByIdAndMainGoodsGroupAndSubGoodsGroup">
+        <Data><![CDATA[
+            Select
+                V_GoodsRef GoodsRef , GoodsQty  , RetCauseRef
+            from
+                tblWasteItm WI, tblGoods GD
+            Where
+                    GoodsQty<>0
+                AND WI.V_GoodsRef = GD.ID
+                AND HdrRef = ?
+                AND GD.V_GoodsMainGroupID = ?
+                AND GD.V_GoodsSubGroupID = ?
+        ]]></Data>
+    </string>
+    <string name="DamageDao_getDamageStatusByIdAndMainGoodsGroup">
+        <Data><![CDATA[
+            Select
+                V_GoodsRef GoodsRef , GoodsQty  , RetCauseRef
+            from
+                tblWasteItm WI, tblGoods GD
+            Where
+                    GoodsQty<>0
+                AND WI.V_GoodsRef = GD.ID
+                AND HdrRef = ?
+                AND GD.V_GoodsMainGroupID = ?
+        ]]></Data>
+    </string>
+    <string name="DamageDao_getDamageStatusById">
+        <Data><![CDATA[
+            Select
+                V_GoodsRef GoodsRef , GoodsQty  , RetCauseRef
+            from
+                tblWasteItm WI, tblGoods GD
+            Where
+                    GoodsQty<>0
+                AND WI.V_GoodsRef = GD.ID
+                AND HdrRef = ?
+        ]]></Data>
+    </string>
+    <!--##############################################################################-->
+</resources>

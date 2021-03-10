@@ -1,0 +1,135 @@
+/*#########################################################################################
+#########################################################################################
+#########################################################################################
+I used this link for developing application :
+
+http://www.compiletimeerror.com/2013/01/why-and-how-to-use-asynctask.html#.Uhsz8n-tF6Y
+
+#########################################################################################
+#########################################################################################
+######################################################################################### */
+
+package org.sayesaman.tut3.sakhtemankala.scrollview.horizontal;
+
+import android.app.Activity;
+import android.content.Context;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import org.sayesaman.R;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * Created by User on 8/15/13.
+ */
+public class MyActivity extends Activity {
+    LayoutInflater inflater;
+
+    public static final int MAXI = 3000;
+    public static final int MAXJ = 50;
+    public static final int MAXK = 2;
+
+    private LinearLayout parent1;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.tut3);
+        //************************************************************************************************
+        initImages();
+        inflater = (LayoutInflater) this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        //************************************************************************************************
+
+        parent1 = (LinearLayout) findViewById(R.id.tut3_list_goods);
+
+        //#########################################################################################
+        for (int i = 0; i < MAXI; i++) {
+            AsyncTaskRunner runner = new AsyncTaskRunner();
+            runner.execute(String.valueOf(i));
+        }
+        //#########################################################################################
+    }
+
+    //#########################################################################################
+    //#########################################################################################
+    //#########################################################################################
+    private class AsyncTaskRunner extends AsyncTask<String, Void, View> {
+
+        private String resp;
+
+        @Override
+        protected View doInBackground(String... params) {
+            //publishProgress("Sleeping..."); // Calls onProgressUpdate()
+            View xyz = getNewView(Integer.valueOf(params[0]));
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            return xyz;
+        }
+
+        /*
+         * (non-Javadoc)
+         *
+         * @see android.os.AsyncTask#onPostExecute(java.lang.Object)
+         */
+
+        /*
+         * (non-Javadoc)
+         *
+         * @see android.os.AsyncTask#onPreExecute()
+         */
+        @Override
+        protected void onPreExecute() {
+            // Things to be done before execution of long running operation. For
+            // example showing ProgessDialog
+        }
+
+
+        @Override
+        protected void onPostExecute(View xyz) {
+            parent1.addView(xyz);
+        }
+    }
+    //#########################################################################################
+    //#########################################################################################
+    //#########################################################################################
+
+    private View getNewView(int i) {
+        View viewGoods = inflater.inflate(R.layout.tut3_goods, null, false);
+
+        ImageView productImg1 = (ImageView) viewGoods.findViewById(R.id.productImg);
+        productImg1.setImageResource(map.get("sakhtemankala" + String.valueOf(i % 8)));
+
+        TextView productName1 = (TextView) viewGoods.findViewById(R.id.productName);
+        productName1.setText("sakhteman kala " + String.valueOf(++i));
+
+        TextView rowNum1 = (TextView) viewGoods.findViewById(R.id.rowNum);
+        rowNum1.setText(String.valueOf(i));
+
+        return(viewGoods);
+    }
+
+    Map<String, Integer> map = new HashMap<String, Integer>();
+
+    private void initImages() {
+        map.put("sakhtemankala0", R.drawable.sakhtemankala0);
+        map.put("sakhtemankala1", R.drawable.sakhtemankala1);
+        map.put("sakhtemankala2", R.drawable.sakhtemankala2);
+        map.put("sakhtemankala3", R.drawable.sakhtemankala3);
+        map.put("sakhtemankala4", R.drawable.sakhtemankala4);
+        map.put("sakhtemankala5", R.drawable.sakhtemankala5);
+        map.put("sakhtemankala6", R.drawable.sakhtemankala6);
+        map.put("sakhtemankala7", R.drawable.sakhtemankala7);
+    }
+}
+

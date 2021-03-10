@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/product_uper_layout"
+        style="@style/productparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:paddingBottom="5dp" >
+
+        <ImageView
+            android:id="@+id/product_image"
+            style="@style/product_image"
+            android:layout_width="164dp"
+            android:layout_height="164dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitCenter"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:id="@+id/relative_seprator"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_alignLeft="@+id/product_image"
+            android:layout_alignRight="@+id/product_image"
+            android:layout_below="@id/product_image"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffbfbfbf" >
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/product_header"
+            style="@style/textview.product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/product_image"
+            android:layout_alignRight="@+id/product_image"
+            android:layout_below="@id/relative_seprator"
+            android:layout_centerHorizontal="true"
+            android:minHeight="20dp"
+            android:singleLine="true"
+            android:text="عنوان کالا"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/txt_product_type_prodlayout"
+            style="@style/textview.product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/product_image"
+            android:layout_alignRight="@+id/product_image"
+            android:layout_below="@+id/product_header"
+            android:layout_centerHorizontal="true"
+            android:minHeight="20dp"
+            android:singleLine="true"
+            android:text="نوع کالا" />
+
+        <TextView
+            android:id="@+id/txt_product_supplyer_prodlayout"
+            style="@style/textview.product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/product_image"
+            android:layout_alignRight="@+id/product_image"
+            android:layout_below="@+id/txt_product_type_prodlayout"
+            android:layout_centerHorizontal="true"
+            android:minHeight="20dp"
+            android:singleLine="true"
+            android:text="تامین کننده"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/btn_add_to_cart_product"
+            style="@style/imagebuttonStyle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignRight="@+id/product_image"
+            android:layout_below="@+id/rate_product_rat_prodlayout"
+            android:scaleType="fitCenter"
+            android:src="@drawable/cart" />
+
+        <ImageButton
+            android:id="@+id/btn_add_to_compare_list"
+            style="@style/imagebuttonStyle"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btn_add_to_cart_product"
+            android:layout_alignLeft="@+id/product_image"
+            android:layout_alignTop="@+id/btn_add_to_cart_product"
+            android:layout_below="@+id/rate_product_rat_prodlayout"
+            android:scaleType="fitCenter"
+            android:src="@drawable/compare" />
+
+        <RatingBar
+            android:id="@+id/rate_product_rat_prodlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@+id/txt_product_supplyer_prodlayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:minHeight="30dp"
+            android:scaleX=".5"
+            android:scaleY=".5"
+            android:progressDrawable="@drawable/starbg" />
+
+    </RelativeLayout>
+
+</merge>

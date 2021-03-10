@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/header"
+      style="@style/accordion.header"
+      android:layout_width="fill_parent"
+      android:layout_height="62dp"
+      android:layout_marginLeft="5dp"
+      android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/headerImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/ic_launcher"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/btn_open_close"
+            style="@style/open_close_button"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/headertext"
+            style="@style/textview.accordionheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/headerImage"
+            android:layout_toRightOf="@+id/btn_open_close"
+            android:gravity="right"
+            android:singleLine="true"
+            android:text="عنوان1"
+            android:textColor="#ff909090"
+            android:textSize="25sp" />
+
+    </RelativeLayout>

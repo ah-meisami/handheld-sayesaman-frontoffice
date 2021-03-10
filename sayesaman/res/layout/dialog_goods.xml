@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+    <!-- HEADER -->
+    <include
+            android:id="@+id/top_header"
+            android:layout_alignParentTop="true"
+            layout="@layout/app3_header"/>
+
+    <!-- FOOTER -->
+<!--
+    <LinearLayout
+            android:id="@+id/bottom_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true">
+        &lt;!&ndash; menu bar &ndash;&gt;
+        <include layout="@layout/app3_footer"/>
+    </LinearLayout>
+-->
+
+
+    <!-- MAIN PART -->
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/top_header"
+            android:layout_above="@id/bottom_menu"
+            android:layout_weight="1"
+            android:id="@+id/sub_content_view"
+            android:paddingBottom="5sp"
+            android:background="#EAEAEA">
+
+        <ImageView
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:id="@+id/imageView123"
+                android:src="@drawable/app1_logo_sayesaman"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+        </ImageView>
+    </LinearLayout>
+</RelativeLayout>

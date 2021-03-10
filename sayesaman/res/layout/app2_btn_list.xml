@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:stretchColumns="*">
+    <TableRow>
+        <ImageView android:id="@+id/app2_btn01"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:src="@drawable/app2_btn01"/>
+
+        <ImageView android:id="@+id/app2_btn02"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:src="@drawable/app2_btn02"/>
+
+        <ImageView android:id="@+id/app2_btn03"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:src="@drawable/app2_btn03"/>
+    </TableRow>
+
+    <TableRow>
+        <ImageView android:id="@+id/app2_btn04"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:src="@drawable/app2_btn04"/>
+
+        <ImageView android:id="@+id/app2_btn05"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:src="@drawable/app2_btn05"/>
+
+        <ImageView android:id="@+id/app2_btn06"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:src="@drawable/app2_btn06"/>
+    </TableRow>
+
+    <TableRow>
+        <ImageView android:id="@+id/app2_btn07"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:src="@drawable/app2_btn07"/>
+
+        <ImageView android:id="@+id/app2_btn08"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:src="@drawable/app2_btn08"/>
+
+        <ImageView android:id="@+id/app2_btn09"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:src="@drawable/app2_btn09"/>
+    </TableRow>
+
+    <TableRow>
+        <ImageView android:id="@+id/app2_btn10"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:src="@drawable/app2_btn10"/>
+
+        <ImageView android:id="@+id/app2_btn11"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:src="@drawable/app2_btn11"/>
+
+        <ImageView android:id="@+id/app2_btn12"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:src="@drawable/app2_btn12"/>
+    </TableRow>
+
+    <TableRow>
+        <ImageView android:id="@+id/app2_btn13"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:src="@drawable/app2_btn13"/>
+
+        <ImageView android:id="@+id/app2_btn14"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:src="@drawable/app2_btn14"/>
+
+        <ImageView android:id="@+id/app2_btn15"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:src="@drawable/app2_btn15"/>
+    </TableRow>
+
+    <TableRow>
+        <ImageView android:id="@+id/app2_btn16"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:src="@drawable/app2_btn16"/>
+
+        <ImageView android:id="@+id/app2_btn17"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:src="@drawable/app2_btn17"/>
+
+        <ImageView android:id="@+id/app2_btn18"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:src="@drawable/app2_btn18"/>
+    </TableRow>
+
+    <TableRow>
+        <ImageView android:id="@+id/app2_btn19"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:src="@drawable/app2_btn19"/>
+    </TableRow>
+
+</TableLayout>

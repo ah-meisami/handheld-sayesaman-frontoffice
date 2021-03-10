@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp" >
+
+<RelativeLayout
+    android:id="@+id/project_head_menu_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginRight="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/no_pic1" />
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageButton1"
+        android:layout_toRightOf="@+id/imageButton1"
+        android:gravity="right" >
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <EditText
+                android:id="@+id/customEditText1"
+                style="@style/txt_account_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/textView1"
+                style="@style/edit_account_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:text="نام پروژه : " />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <EditText
+                android:id="@+id/customEditText01"
+                style="@style/txt_account_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                style="@style/edit_account_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="گروه پروژه : " />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <EditText
+                android:id="@+id/customEditText02"
+                style="@style/txt_account_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/TextView03"
+                style="@style/edit_account_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="تاریخ شروع پروژه : " />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Button01"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/button2"
+        android:text="ویرایش" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Button01"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/Button01"
+        android:text="انصراف" />
+    <Button
+        android:id="@+id/Button01"
+        style="@style/buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tableLayout1"
+        android:layout_below="@+id/EditText01"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="تائید" />
+
+    <EditText
+        android:id="@+id/EditText01"
+        style="@style/txt_account_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tableLayout1"
+        android:layout_alignTop="@+id/TextView02"
+        android:layout_marginRight="40dp"
+        android:layout_span="2"
+        android:layout_toLeftOf="@+id/TextView02"
+        android:ems="10"
+        android:minHeight="70dp" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        style="@style/edit_account_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tableLayout1"
+        android:layout_below="@+id/tableLayout1"
+        android:layout_marginTop="10dp"
+        android:gravity="right"
+        android:text="شرح پروژه : " />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton1"
+        android:layout_toRightOf="@+id/imageButton1" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/edit_account_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="321321"
+                android:textColor="#ff818181" />
+
+            <TextView
+                android:id="@+id/TextView05"
+                style="@style/edit_account_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="کد پروژه :"
+                android:textColor="#ff818181" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView04"
+                style="@style/edit_account_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="right"
+                android:text=" 28/05/1392"
+                android:textColor="#ff818181" />
+
+            <TextView
+                android:id="@+id/TextView06"
+                style="@style/edit_account_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="تاریخ ثبت پروژه :"
+                android:textColor="#ff818181" />
+
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
+
+<TabHost
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="10dp" >
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+			<TabWidget
+			    android:id="@android:id/tabs"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="0dip"
+			    android:layout_marginRight="0dip" />
+
+			<FrameLayout
+			    android:id="@android:id/tabcontent"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:background="@drawable/tab_bg" >
+
+			    <include
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        layout="@layout/project_photo_project" />
+
+			    <include
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        layout="@layout/project_about_project" />
+
+			    <include
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        layout="@layout/project_info_project" />
+
+			    <include
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        layout="@layout/project_address_project" />
+
+			    <include
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        layout="@layout/project_accounts_project" />
+
+			    <include
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        layout="@layout/project_document_project" />
+			</FrameLayout>
+
+		</LinearLayout>
+	</TabHost>
+</LinearLayout>
+</ScrollView>

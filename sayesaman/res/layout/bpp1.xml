@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+<!-- HEADER -->
+<include android:id="@+id/top_header" android:layout_alignParentTop="true" layout="@layout/bpp1_header"/>
+
+<!-- FOOTER -->
+<LinearLayout android:id="@+id/bottom_menu"
+              android:layout_width="fill_parent" android:layout_height="wrap_content"
+              android:orientation="vertical" android:layout_alignParentBottom="true">
+    <!-- menu bar -->
+    <include layout="@layout/bpp1_footer" />
+</LinearLayout>
+
+
+<!-- MAIN PART -->
+<LinearLayout android:orientation="vertical"
+              android:layout_width="fill_parent" android:layout_height="fill_parent"
+              android:layout_below="@id/top_header" android:layout_above="@id/bottom_menu"
+              android:layout_weight="1"
+              android:id="@+id/sub_content_view"
+              android:paddingBottom="5sp" android:background="#EAEAEA">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/horizontalScrollView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:id="@+id/bpp1_list"
+                      android:orientation="vertical"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:divider="@drawable/tut8_divider"
+                      android:dividerPadding="12dip"
+                      android:showDividers="middle"
+                      android:background="#ffffff"/>
+    </ScrollView>
+
+</LinearLayout>
+
+
+
+</RelativeLayout>

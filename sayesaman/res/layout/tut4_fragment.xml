@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+    <!-- HEADER -->
+    <include
+            android:id="@+id/top_header"
+            android:layout_alignParentTop="true"
+            layout="@layout/tut4_fragment_header"/>
+
+    <!-- FOOTER -->
+    <LinearLayout
+            android:id="@+id/bottom_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true">
+        <include layout="@layout/tut4_fragment_footer"/>
+    </LinearLayout>
+
+
+    <!-- MAIN PART -->
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/top_header"
+            android:layout_above="@id/bottom_menu"
+            android:layout_weight="1"
+            android:background="#ffe0e0cd">
+
+        <ImageButton
+                android:id="@+id/salePathImage"
+                android:background="#00000000"
+                style="@style/image"
+                android:scaleType="fitCenter"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"/>
+    </LinearLayout>
+</RelativeLayout>

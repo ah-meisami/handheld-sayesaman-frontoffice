@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ShowToast" severity="ignore" />
+    <issue id="ViewConstructor" severity="ignore" />
+    <issue id="WrongCall">
+        <ignore path="src/com/ara/map/Mymap.java" />
+        <ignore path="src/com/ara/map/map.java" />
+        <ignore path="src/com/ara/map/test.java" />
+        <ignore path="src/com/example/sktheme/star.java" />
+    </issue>
+</lint>

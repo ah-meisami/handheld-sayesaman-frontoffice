@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:showDividers="beginning|middle|end"
+              android:background="#8bbdff"
+              android:measureWithLargestChild="false"
+        >
+    <!--================================================================================================================================-->
+    <TextView
+            android:id="@+id/tut8_cust_id"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+
+    <TextView
+            android:id="@+id/tut8_no"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textColor="#fffe50"
+            android:gravity="center_horizontal"
+            android:text="1"
+            android:typeface="serif"
+            android:layout_gravity="center"/>
+
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tut8_image"
+            style="@style/imagebuttonStyle"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:src="@drawable/social_person1"/>
+
+    <TextView
+            android:id="@+id/tut8_code"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#fffe50"
+            android:gravity="center_horizontal"
+            android:text="1110277"
+            android:typeface="serif"
+            android:layout_gravity="center"/>
+
+    <TextView
+            android:id="@+id/tut8_real_name"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#fffe50"
+            android:gravity="center_horizontal"
+            android:text="سوپر رضا"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:textIsSelectable="false"/>
+
+    <TextView
+            android:id="@+id/tut8_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#fffe50"
+            android:gravity="center_horizontal"
+            android:text="محمد رضا دولت?"
+            android:typeface="serif"
+            android:layout_gravity="center"/>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal">
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:baselineAligned="true"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:id="@+id/tut8_damage">
+
+            <TextView
+                    android:id="@+id/tut8_damage_qty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ff65ff6b"
+                    android:gravity="center_horizontal"
+                    android:text="tut8_damage_qty"
+                    android:typeface="serif"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+
+            <TextView
+                    android:id="@+id/tut8_damage_sum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ff222bff"
+                    android:gravity="center_horizontal"
+                    android:text="tut8_damage_sum"
+                    android:typeface="serif"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tut8_damage_img"
+                    android:layout_gravity="center"
+                    android:src="@drawable/tut8_damage1"
+                    android:focusableInTouchMode="false"
+                    android:background="?android:attr/selectableItemBackground"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:id="@+id/tut8_order">
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tut8_order_img"
+                    android:layout_gravity="center"
+                    android:src="@drawable/tut8_order1"
+                    android:background="?android:attr/selectableItemBackground"/>
+
+            <TextView
+                    android:id="@+id/tut8_order_qty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ff162d"
+                    android:gravity="center_horizontal"
+                    android:text="tut8_order_qty"
+                    android:typeface="serif"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+
+            <TextView
+                    android:id="@+id/tut8_order_sum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffff1ae9"
+                    android:gravity="center_horizontal"
+                    android:text="tut8_order_sum"
+                    android:typeface="serif"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--================================================================================================================================-->
+</LinearLayout>

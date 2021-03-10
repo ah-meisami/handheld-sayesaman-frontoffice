@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--===============================================================-->
+    <string name="BuyTypeDao_getListByCustLevel_2000000000">
+        <Data><![CDATA[
+            SELECT A.id , A.name , A.code  FROM
+            (
+                        SELECT  ID id  , code , Title|| \' \' || PUName name FROM tblBuyType WHERE Code=1
+            UNION
+                        SELECT  ID id  , code , Title|| \' \' || PUName name FROM tblBuyType WHERE Code=6 AND ID <=2000000183
+            ) A
+            order by A.code
+        ]]></Data>
+    </string>
+    <!--===============================================================-->
+    <string name="BuyTypeDao_getListByCustLevel_2000000003">
+        <Data><![CDATA[
+            SELECT A.id , A.name , A.code  FROM
+            (
+                        SELECT  ID id  , code , Title|| \' \' || PUName name FROM tblBuyType WHERE Code=1
+            UNION
+                        SELECT  ID id  , code , Title|| \' \' || PUName name FROM tblBuyType WHERE Code=6 AND ID <=2000000198
+            UNION
+                        SELECT  ID id  , code , Title|| \' \' || PUName name FROM tblBuyType WHERE Code=5 AND ID <=2000000156
+            ) A
+            order by A.code
+        ]]></Data>
+    </string>
+    <!--===============================================================-->
+    <string name="BuyTypeDao_getListByCustLevel_2000000004">
+        <Data><![CDATA[
+            SELECT A.id , A.name , A.code  FROM
+            (
+                        SELECT  ID id  , code , Title|| \' \' || PUName name FROM tblBuyType WHERE Code=1
+            UNION
+                        SELECT  ID id  , code , Title|| \' \' || PUName name FROM tblBuyType WHERE Code=6 AND ID <=2000000198
+            ) A
+            order by A.code
+        ]]></Data>
+    </string>
+    <!--===============================================================-->
+</resources>

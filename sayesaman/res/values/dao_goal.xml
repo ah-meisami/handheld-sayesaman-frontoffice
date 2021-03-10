@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--===============================================================-->
+    <string name="GoalDao_getList1">
+        <Data>
+            <![CDATA[
+                SELECT DISTINCT
+                    [PersonnelID] AS DealerId
+                  , [AccMonth] AS AccMonth
+                FROM
+                  [tblGoalItm]
+            ]]>
+        </Data>
+    </string>
+    <!--===============================================================-->
+    <string name="GoalDao_getList2">
+        <Data>
+            <![CDATA[
+                SELECT
+                  [GoodsGroupID]
+                , [GoodsGroupName]
+
+                , [GoodsID]
+                , [GoodsCode]
+                , [GoodsName]
+                , [GoodsScore]
+
+                , [MonthQtyGoal]
+                , [MonthQtySale]
+                , [MonthQtyWaste]
+
+                , [MonthPriceSale]
+                , [MonthPriceWaste]
+                FROM
+                  [tblGoalItm]
+                WHERE
+                  MonthQtyGoal <> 0
+                ORDER BY
+                  GoodsCode
+            ]]>
+        </Data>
+    </string>
+    <!--===============================================================-->
+</resources>

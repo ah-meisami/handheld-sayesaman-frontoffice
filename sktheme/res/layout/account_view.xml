@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/horizontal_ribbon_parent_border" >
+
+    <RelativeLayout
+        android:id="@+id/account_view_right_menu"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rtl_account_buttom"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:background="@drawable/horizontal_ribbon_parent_border" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="5dp" >
+            <ImageView
+                android:id="@+id/profile_profpicture_imageview"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="19dp"
+                android:layout_marginTop="11dp"
+                android:padding="10dp"
+                android:src="@drawable/persion" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/profile_profpicture_imageview"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@+id/profile_profpicture_imageview"
+                android:gravity="right"
+                android:text="حمید زندی\nسمت سازمانی\n2468123"
+                android:textColor="#ff000000"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout2"
+            android:layout_marginLeft="1dp" >
+
+            <com.example.sktheme.accountMenu.menuAccordion
+                android:id="@+id/menu_account_accordion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </com.example.sktheme.accountMenu.menuAccordion>
+        </ScrollView>
+    </RelativeLayout>
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/account_view_right_menu"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/account_view_right_menu"
+        android:layout_marginBottom="10dp"
+        android:layout_toLeftOf="@+id/seprator"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/edit_account" />
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/project" />
+
+    </ViewFlipper>
+
+   <RelativeLayout
+       android:id="@+id/relativeLayout1"
+       android:layout_width="wrap_content"
+       android:layout_height="65dp"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentTop="true"
+       android:background="@drawable/gd_quick_action_grid_bg" >
+
+        <TextView
+            android:id="@+id/txt_main_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="سامانه ملی ساختمان کالا"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btn_account_screen_back"
+            style="@style/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/back1"
+            android:text="خروج" >
+
+            </Button>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/seprator"
+        android:layout_width="2dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_toLeftOf="@+id/account_view_right_menu"
+        android:background="#ff035583" >
+    </RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/rtl_account_buttom"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginTop="-2dp"
+    android:background="@drawable/menu_down" >
+            <ImageButton
+                android:id="@+id/btn_setting_firstpage"
+                style="@style/menu_button.setting"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:paddingBottom="2dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="2dp" />
+
+        </RelativeLayout>
+</RelativeLayout>

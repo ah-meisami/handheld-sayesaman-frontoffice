@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--##############################################################################-->
+    <string name="CustomerDao_getAll0">
+        <Data><![CDATA[
+            SELECT
+                tblTourItm.*
+            FROM
+                tblTourItm
+            --WHERE CustPathNo = 2000008854
+            order by CustVisitCode
+        ]]></Data>
+    </string>
+    <string name="CustomerDao_getAll1">
+        <Data><![CDATA[
+            SELECT
+                ID
+                ,CustCode
+                ,CustName
+                ,CustRealName
+                ,CustAddress
+                ,CustPhone
+                ,CustMobile
+            FROM
+                tblTourItm
+            WHERE CustPathNo = ?
+            order by CustVisitCode
+        ]]></Data>
+    </string>
+    <string name="CustomerDao_getOne">
+        <Data><![CDATA[
+            SELECT
+                 tblTourItm.ID
+                ,tblTourItm.CustCode
+                ,tblTourItm.CustName
+                ,tblTourItm.CustRealName
+                ,tblTourItm.CustAddress
+                ,tblTourItm.CustPhone
+                ,tblTourItm.CustMobile
+
+                ,tblTourItm.CustActRef
+                ,tblTourItm.CustActName
+                ,tblTourItm.CustCtgrRef
+                ,tblTourItm.CustCtgrName
+                ,tblTourItm.CustLevelRef
+                ,tblTourItm.CustLevelName
+                ,tblTourItm.CustVisitCode
+
+                ,tblTourItm.OrderBuyTypeID BuyTypeRef
+                ,tblBuyType.Title || \' \' || tblBuyType.PUName BuyTypeName
+
+                , tblTour2_SalePath.V_SalePathRef PathId
+                , tblTour2_SalePath.V_SalePathName PathName
+            FROM
+                tblTourItm INNER JOIN tblTour2_SalePath ON tblTourItm.CustPathNo= tblTour2_SalePath.V_SalePathRef
+                LEFT OUTER JOIN tblBuyType ON tblTourItm.OrderBuyTypeID = tblBuyType.ID
+             WHERE
+                tblTourItm.ID = ?
+        ]]></Data>
+    </string>
+    <!--##############################################################################-->
+    <string name="CustomerDao_checkStatusOrder">
+        <Data><![CDATA[
+            SELECT
+                  Count(*) order_qty
+                , Sum(GoodsQty) order_sum
+                , sum(GD.GoodsPrice * GD.CartonType* OI.GoodsQty) order_price
+            FROM
+                tblOrderItm OI , tblGoods GD
+            where
+                OI.GoodsRef = GD.ID
+                and GoodsQty<>0 and HdrRef= ? --5672146
+            GROUP BY HdrRef
+        ]]></Data>
+    </string>
+
+
+    <string name="CustomerDao_checkStatusDamage">
+        <Data><![CDATA[
+            SELECT V_GoodsRef GoodsRef , GoodsQty  , RetCauseRef
+            FROM
+                tblWasteItm
+            where
+                GoodsQty<>0 and HdrRef= ? --5671762
+        ]]></Data>
+    </string>
+    <!--##############################################################################-->
+    <string name="CustomerDao_getOrderStatusByPath">
+        <Data><![CDATA[
+            SELECT
+                  Count(*) order_qty
+                , Sum(GoodsQty) order_sum
+                , sum(GD.GoodsPrice * GD.CartonType* OI.GoodsQty) order_price
+            FROM
+                tblTourItm TI, tblOrderItm OI , tblGoods GD
+            where
+                    TI.ID = OI.HdrRef
+                AND OI.GoodsRef = GD.ID
+                AND GoodsQty<>0
+                AND CustPathNo = ?
+        ]]></Data>
+    </string>
+
+
+    <string name="CustomerDao_getDamageStatusByPath">
+        <Data><![CDATA[
+            SELECT DISTINCT
+                WI.V_GoodsRef GoodsRef , WI.GoodsQty  , WI.RetCauseRef
+            FROM
+                tblTourItm , tblWasteItm WI
+            WHERE
+                tblTourItm.ID = WI.HdrRef
+            AND GoodsQty<> 0
+            AND CustPathNo = ?
+        ]]></Data>
+    </string>
+    <!--##############################################################################-->
+</resources>

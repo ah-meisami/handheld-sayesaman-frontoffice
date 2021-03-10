@@ -1,0 +1,177 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#fff"
+              android:orientation="horizontal"
+              android:paddingBottom="16dp"
+              android:paddingLeft="16dp"
+              android:paddingRight="16dp"
+              android:paddingTop="16dp">
+
+    <LinearLayout
+            android:layout_width="190dp"
+            android:layout_height="260dp"
+            android:background="#123456"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:background="#123456"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            <EditText
+                    android:id="@+id/keypad_disp"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:editable="false"
+                    android:hint="0"
+                    android:text=""
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+            <Button
+                    android:id="@+id/keypad_backspace"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="&lt;"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingTop="3dp">
+
+            <Button
+                    android:id="@+id/keypad_seven"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="7"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+            <Button
+                    android:id="@+id/keypad_eight"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="8"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+            <Button
+                    android:id="@+id/keypad_nine"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="9"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingTop="3dp">
+
+            <Button
+                    android:id="@+id/keypad_four"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+            <Button
+                    android:id="@+id/keypad_five"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+            <Button
+                    android:id="@+id/keypad_six"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="6"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingTop="3dp">
+
+            <Button
+                    android:id="@+id/keypad_one"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+            <Button
+                    android:id="@+id/keypad_two"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+            <Button
+                    android:id="@+id/keypad_three"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingTop="3dp">
+
+            <Button
+                    android:id="@+id/keypad_cancel"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+            <Button
+                    android:id="@+id/keypad_zero"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+            <Button
+                    android:id="@+id/keypad_equal"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="="
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

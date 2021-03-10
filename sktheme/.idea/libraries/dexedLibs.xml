@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/mapsforge-map-0.3.0-jar-with-dependencies-11bb2ea14c6b528974428836f64ac787.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/mapsforge-map-0.3.0-jar-with-dependencies-7bf634a8ecdcf54c183beaa4c6f98b84.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/mapsforge-map-0.3.0-jar-with-dependencies-edbc693234b6518985bd6c3edad24e17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/ksoap2-android-assembly-3.0.0-jar-with-dependencies-04ecbd2f818b8118bff0e4436e99c4e6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-d82b15330584f4a204e8c2ab70013607.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/ksoap2-android-assembly-3.0.0-jar-with-dependencies-b7bb3c2785907009b8d18442c2f02b41.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/mapsforge-map-0.3.0-jar-with-dependencies-afbcce7b7c33dbc6419375fa47dd0b7b.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

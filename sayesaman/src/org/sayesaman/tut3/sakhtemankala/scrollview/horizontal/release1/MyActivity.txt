@@ -1,0 +1,94 @@
+package org.sayesaman.tut3.sakhtemankala.scrollview.horizontal;
+
+import android.app.Activity;
+import android.content.Context;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import org.sayesaman.R;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * Created by User on 8/15/13.
+ */
+public class MyActivity1 extends Activity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.tut3);
+        LinearLayout layout3 = (LinearLayout) findViewById(R.id.layout3);
+        //************************************************************************************************
+        Map<String, Integer> map = new HashMap<String, Integer>();
+        map.put("alifard_1000", R.drawable.goods_group_03);
+        map.put("alifard_juice_gallon", R.drawable.goods_group_02);
+        map.put("alifard_sherisa", R.drawable.goods_group_04);
+        map.put("alifard_350", R.drawable.goods_group_05);
+        map.put("alifard_500", R.drawable.goods_group_06);
+        map.put("alifard_cool", R.drawable.goods_group_07);
+        //************************************************************************************************
+        LayoutInflater inflater = (LayoutInflater) this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        //************************************************************************************************
+        int rowNum = 0;
+        for (int i = 0; i < 10; i++) {
+            //************************************************************************************************
+            View v1 = inflater.inflate(R.layout.tut3_goods, null, false);
+
+            ImageView productImg1 = (ImageView) v1.findViewById(R.id.productImg);
+            productImg1.setImageResource(map.get("alifard_1000"));
+
+            TextView productName1 = (TextView) v1.findViewById(R.id.productName);
+            productName1.setText("1000");
+
+            TextView rowNum1 = (TextView) v1.findViewById(R.id.rowNum);
+            rowNum1.setText(String.valueOf(++rowNum));
+
+            layout3.addView(v1);
+            //************************************************************************************************
+            View v2 = inflater.inflate(R.layout.tut3_goods, null, false);
+
+            ImageView productImg2 = (ImageView) v2.findViewById(R.id.productImg);
+            productImg2.setImageResource(map.get("alifard_juice_gallon"));
+
+            TextView productName2 = (TextView) v2.findViewById(R.id.productName);
+            productName2.setText("gallon");
+
+            TextView rowNum2 = (TextView) v2.findViewById(R.id.rowNum);
+            rowNum2.setText(String.valueOf(++rowNum));
+
+            layout3.addView(v2);
+            //************************************************************************************************
+            View v3 = inflater.inflate(R.layout.tut3_goods, null, false);
+
+            ImageView productImg3 = (ImageView) v3.findViewById(R.id.productImg);
+            productImg3.setImageResource(map.get("alifard_sherisa"));
+
+            TextView productName3 = (TextView) v3.findViewById(R.id.productName);
+            productName3.setText("sherisa");
+
+            TextView rowNum3 = (TextView) v3.findViewById(R.id.rowNum);
+            rowNum3.setText(String.valueOf(++rowNum));
+
+            layout3.addView(v3);
+            //************************************************************************************************
+            View v4 = inflater.inflate(R.layout.tut3_goods, null, false);
+
+            ImageView productImg4 = (ImageView) v4.findViewById(R.id.productImg);
+            productImg4.setImageResource(map.get("alifard_cool"));
+
+            TextView productName4 = (TextView) v4.findViewById(R.id.productName);
+            productName4.setText("cool");
+
+            TextView rowNum4 = (TextView) v4.findViewById(R.id.rowNum);
+            rowNum4.setText(String.valueOf(++rowNum));
+
+            layout3.addView(v4);
+            //************************************************************************************************
+        }
+    }
+}

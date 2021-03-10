@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="right|center_horizontal"
+            android:orientation="horizontal">
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal|right">
+
+            <CheckBox
+                    android:id="@+id/app9_my_place"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"/>
+
+            <TextView
+                    android:id="@+id/app9_my_place_"
+                    style="@style/LableStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app9_my_place_"
+                    android:textSize="20dp"
+                    android:gravity="left"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <!-- -->
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#C0E7F3">
+
+        <View style="@style/hBorder"/>
+    </LinearLayout>
+    <!-- -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="right|center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+
+        <TextView
+                style="@style/LableStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app9_local_"
+                android:id="@+id/app9_local_"
+                android:textSize="20dp"
+                android:gravity="center_vertical|center_horizontal"/>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal">
+
+            <EditText
+                    android:id="@+id/app9_local_part1"
+                    android:layout_width="100dp"
+                    android:layout_height="55dp"
+                    android:minWidth="100dp"
+                    android:minHeight="55dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="172"
+                    android:background="@drawable/edittext_rounded_corners"
+                    android:inputType="number"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:typeface="serif"
+                    android:maxLength="3"/>
+
+            <TextView style="@style/http"
+                      android:text="."
+                      android:textSize="30dp"/>
+
+            <EditText
+                    android:id="@+id/app9_local_part2"
+                    android:layout_width="100dp"
+                    android:layout_height="55dp"
+                    android:minWidth="100dp"
+                    android:minHeight="55dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="16"
+                    android:background="@drawable/edittext_rounded_corners"
+                    android:inputType="number"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:typeface="serif"
+                    android:maxLength="3"/>
+
+            <TextView
+                    style="@style/http"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2"
+                    android:text="."
+                    android:textSize="30dp"/>
+
+            <EditText
+                    android:layout_width="100dp"
+                    android:layout_height="55dp"
+                    android:minWidth="100dp"
+                    android:minHeight="55dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:id="@+id/app9_local_part3"
+                    android:text="0"
+                    android:background="@drawable/edittext_rounded_corners"
+                    android:inputType="number"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:typeface="serif"
+                    android:maxLength="3"/>
+
+            <TextView style="@style/http"
+                      android:text="."
+                      android:textSize="30dp"/>
+
+            <EditText
+                    android:id="@+id/app9_local_part4"
+                    android:layout_width="100dp"
+                    android:layout_height="55dp"
+                    android:minWidth="100dp"
+                    android:minHeight="55dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="17"
+                    android:background="@drawable/edittext_rounded_corners"
+                    android:inputType="number"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:typeface="serif"
+                    android:maxLength="3"/>
+
+            <TextView style="@style/http"
+                      android:text=":"
+                      android:textSize="30dp"/>
+
+            <EditText
+                    android:id="@+id/app9_local_port"
+                    android:layout_width="120dp"
+                    android:layout_height="55dp"
+                    android:minWidth="100dp"
+                    android:minHeight="55dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="9030"
+                    android:background="@drawable/edittext_rounded_corners"
+                    android:inputType="number"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:typeface="serif"
+                    android:maxLength="5"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!-- -->
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#C0E7F3">
+
+        <View style="@style/hBorder"/>
+    </LinearLayout>
+    <!-- -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="right|center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+
+        <TextView
+                style="@style/LableStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app9_web_"
+                android:id="@+id/app9_web_"
+                android:textSize="20dp"
+                android:gravity="center_vertical|center_horizontal"/>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical|center_horizontal">
+
+            <EditText
+                    android:id="@+id/app9_web_part1"
+                    android:layout_width="100dp"
+                    android:layout_height="55dp"
+                    android:minWidth="100dp"
+                    android:minHeight="55dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/edittext_rounded_corners"
+                    android:text="85"
+                    android:inputType="number"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:typeface="serif"
+                    android:maxLength="3"/>
+
+            <TextView style="@style/http"
+                      android:text="."
+                      android:textSize="30dp"/>
+
+            <EditText
+                    android:id="@+id/app9_web_part2"
+                    android:layout_width="100dp"
+                    android:layout_height="55dp"
+                    android:minWidth="100dp"
+                    android:minHeight="55dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="133"
+                    android:background="@drawable/edittext_rounded_corners"
+                    android:inputType="number"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:typeface="serif"
+                    android:maxLength="3"/>
+
+            <TextView style="@style/http"
+                      android:text="."
+                      android:textSize="30dp"/>
+
+            <EditText
+                    android:layout_width="100dp"
+                    android:layout_height="55dp"
+                    android:minWidth="100dp"
+                    android:minHeight="55dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:id="@+id/app9_web_part3"
+                    android:text="190"
+                    android:background="@drawable/edittext_rounded_corners"
+                    android:inputType="number"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:typeface="serif"
+                    android:maxLength="3"/>
+
+            <TextView
+                    style="@style/http"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView3"
+                    android:text="."
+                    android:textSize="30dp"/>
+
+            <EditText
+                    android:id="@+id/app9_web_part4"
+                    android:layout_width="100dp"
+                    android:layout_height="55dp"
+                    android:minWidth="100dp"
+                    android:minHeight="55dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="39"
+                    android:background="@drawable/edittext_rounded_corners"
+                    android:inputType="number"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:typeface="serif"
+                    android:maxLength="3"/>
+
+            <TextView style="@style/http"
+                      android:text=":"
+                      android:textSize="30dp"/>
+
+            <EditText
+                    android:id="@+id/app9_web_port"
+                    android:layout_width="120dp"
+                    android:layout_height="55dp"
+                    android:minWidth="100dp"
+                    android:minHeight="55dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="5151"
+                    android:background="@drawable/edittext_rounded_corners"
+                    android:inputType="number"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:typeface="serif"
+                    android:maxLength="5"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <!-- -->
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#C0E7F3">
+
+        <View style="@style/hBorder"/>
+    </LinearLayout>
+    <!-- -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="5dp">
+
+        <Button
+                android:layout_width="150dp"
+                android:layout_height="fill_parent"
+                android:text="@string/app9_btn_save"
+                android:background="@drawable/button_rounded_corners"
+                android:id="@+id/app9_btn_save"
+                android:textSize="20dp"/>
+
+        <TextView
+                style="@style/LableStyle"
+                android:id="@+id/textView4"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+
+        <Button
+                android:layout_width="150dp"
+                android:layout_height="fill_parent"
+                android:text="@string/app9_btn_cancel"
+                android:background="@drawable/button_rounded_corners"
+                android:id="@+id/app9_btn_cancel"
+                android:textSize="20dp"/>
+
+    </LinearLayout>
+    <!-- -->
+    <!-- -->
+</LinearLayout>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/dialog_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#998b8b8b">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/product_parent_background">
+
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true">
+
+            <!--=====================================================================================================================-->
+            <!--=====================================================================================================================-->
+            <!--=====================================================================================================================-->
+            <RelativeLayout
+                    android:id="@+id/dialog_order_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/relativeLayout2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/relativeLayout1">
+
+                <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/edittext_rounded_corners"
+                        android:weightSum="1"
+                        android:layout_alignParentStart="true">
+
+                    <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:id="@+id/imageView"
+                            android:layout_gravity="center"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/app2_btn05_up"
+                            />
+                </LinearLayout>
+
+                <ScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_below="@id/top_header"
+                        android:layout_above="@id/bottom_menu"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext_rounded_corners"
+                        android:foregroundGravity="center_vertical|center_horizontal"
+                        android:layout_alignParentLeft="false"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp">
+
+                    <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:id="@+id/dialog_report2_list"
+                            android:layout_margin="5dp"
+                            android:weightSum="1"
+                            android:layout_alignParentEnd="true">
+
+                        <include layout="@layout/dialog_report2_header" />
+                    </LinearLayout>
+                </ScrollView>
+            </RelativeLayout>
+            <!--=====================================================================================================================-->
+            <!--=====================================================================================================================-->
+            <!--=====================================================================================================================-->
+
+            <RelativeLayout
+                    android:id="@+id/relativeLayout1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/dilog_bottom_side_border"
+                    android:paddingBottom="10dp">
+
+                <org.sayesaman.customeviews.CustomTextView
+                        android:id="@+id/dialog_order_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dp"
+                        android:text="اخبار"
+                        android:textSize="25sp"/>
+
+                <Button
+                        android:id="@+id/dialog_order_close"
+                        style="@style/back_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/stop3"
+                        android:text=""/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/relativeLayout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/dilog_top_side_border"
+                    android:gravity="center_vertical|center_horizontal">
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentEnd="false"
+                        android:layout_alignParentRight="false"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/edittext_rounded_corners"
+                        android:id="@+id/linearLayout"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="5dp">
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/dialog_sum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:text="123"
+                            android:textSize="18dp"
+                            android:textColor="#ba2920"/>
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/dialog_sum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:text="تعداد کارتن : "
+                            android:textSize="18dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/edittext_rounded_corners"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp">
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/dialog_qty"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:text="456"
+                            android:textSize="18dp"
+                            android:textColor="#ba2920"/>
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/dialog_qty_"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:text="تعداد مشتری :"
+                            android:textSize="18dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="false"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/edittext_rounded_corners"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp">
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/dialog_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:text="123,456,789"
+                            android:textSize="16dp"
+                            android:textColor="#ba2920"
+                            android:gravity="center_vertical|center_horizontal|left"
+                            android:layout_marginLeft="10dp"/>
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/dialog_price_"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:text="جمع مبلغ : "
+                            android:textSize="16dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|center_horizontal|right"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:custom="http://schemas.android.com/apk/res-auto"
+                android:background="#777777"
+                android:orientation="horizontal"
+                android:layout_height="35dp"
+                android:layout_width="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:id="@+id/layout1"
+                  android:layout_alignParentRight="true"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerInParent="true">
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/app3_footer_desc"
+                style="@style/textLabel"
+                android:text="اين کاتالوگ فقط شامل محصولاتي است که مجوز فروش آنها به فروشنده داده شده است."
+                custom:font="Titr"
+                android:textSize="16dp"
+                android:textColor="#ffe833"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="#fff6b2">
+
+    <View style="@style/hBorder"/>
+
+    <LinearLayout
+            android:id="@+id/bpp7_header"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#DBDBFF"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight=".5">
+
+
+            <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/bpp7_header_img"
+                    android:src="@drawable/tut8_order2"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"/>
+        </LinearLayout>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp7_header_title"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="درخواست : شربت ها : شربت 2 کیلویی"
+                android:gravity="center_vertical|center_horizontal|right"
+                android:layout_marginRight="5dp"
+                android:layout_weight=".5"
+                android:textSize="16dp"/>
+
+        <View style="@style/vBorder"/>
+    </LinearLayout>
+
+    <View style="@style/hBorder"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#DBDBFF"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp7_header6"
+                android:text="مبلغ واحد"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="10dip"
+                android:gravity="center_vertical|center_horizontal|right"
+                android:textSize="16dp"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp7_header3"
+                android:text="علت برگشتی"
+                android:layout_width="161dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="16dp"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp7_header3"
+                android:text="جمع مبلغ"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="16dp"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp7_header3"
+                android:text="تعداد ضایعات"
+                android:layout_width="161dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="16dp"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp7_header2"
+                android:text="لیست کالا"
+                android:layout_width="385dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="16dp"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/bpp7_header1"
+                android:text="رديف"
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="16dp"/>
+
+        <View style="@style/vBorder"/>
+    </LinearLayout>
+
+    <View style="@style/hBorder"/>
+</LinearLayout>

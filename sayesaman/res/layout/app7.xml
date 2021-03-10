@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#C0E7F3"
+              android:layoutDirection="rtl"
+              android:orientation="horizontal"
+              android:textAlignment="gravity"
+              android:textDirection="anyRtl">
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#708188"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#C0E7F3"
+                android:gravity="center"
+                android:layoutDirection="rtl"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+            <ImageView
+                    android:id="@+id/app7_user"
+                    style="?android:borderlessButtonStyle"
+                    android:layout_width="300dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/app7_user"
+                    android:contentDescription="No Image"/>
+
+            <LinearLayout
+                    style="@style/RowStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                <org.sayesaman.customeviews.CustomTextView
+                        android:id="@+id/app7_vizitor_"
+                        style="@style/Text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="محمد رضا موحدي"/>
+
+                <org.sayesaman.customeviews.CustomTextView
+                        android:id="@+id/app7_vizitor"
+                        style="@style/lable"
+                        android:layout_width="96dp"
+                        android:layout_height="wrap_content"
+                        android:text="ويزيتور:"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#C0E7F3"
+                android:layoutDirection="rtl"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#C0E7F3"
+                    android:layoutDirection="rtl"
+                    android:orientation="vertical">
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:background="#C0E7F3">
+
+                    <View style="@style/hBorder"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        style="@style/RowStyle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill">
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/app7_shomare_toor_"
+                            style="@style/Text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="13920530"/>
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/app7_shomare_toor"
+                            style="@style/lable"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="شماره تور:"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        style="@style/RowStyle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/app7_tarikh_visit_"
+                            style="@style/Text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1392/05/30"/>
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/app7_tarikh_visit"
+                            style="@style/lable"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="تاريخ ويزيت:"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        style="@style/RowStyle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/app7_sakhtafzar_"
+                            style="@style/Text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="354114014782966"/>
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/app7_sakhtafzar"
+                            style="@style/lable"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="سخت افزار:"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        style="@style/RowStyle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/app7_narmafzar_"
+                            style="@style/Text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="4.4.0.0"/>
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/app7_narmafzar"
+                            style="@style/lable"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="نرم افزار:"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp">
+
+                    <View style="@style/hBorder"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        style="@style/RowStyle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/app7_sarparast_"
+                            style="@style/Text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="محمدرضا موحدي"/>
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/app7_sarparast"
+                            style="@style/lable"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="سرپرست:"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        style="@style/RowStyle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/app7_mantaghe_"
+                            style="@style/Text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10-بازار(فاقد سرپرست)"/>
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/app7_mantaghe"
+                            style="@style/lable"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="منطقه:"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        style="@style/RowStyle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/app7_nahieh_"
+                            style="@style/Text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2-موحدي"/>
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/app7_nahieh"
+                            style="@style/lable"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ناحيه:"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFF558"
+                android:layoutDirection="rtl"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+
+            <LinearLayout
+                    style="@style/RowStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                <org.sayesaman.customeviews.CustomTextView
+                        android:id="@+id/app7_masir_asli_"
+                        style="@style/Text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="مسير 1 111111232321"/>
+
+                <org.sayesaman.customeviews.CustomTextView
+                        android:id="@+id/app7_masir_asli"
+                        style="@style/lable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="مسير اصلي:"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    style="@style/RowStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                <org.sayesaman.customeviews.CustomTextView
+                        android:id="@+id/app7_tedad_moshtari_kol_"
+                        style="@style/Text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="133"/>
+
+                <org.sayesaman.customeviews.CustomTextView
+                        android:id="@+id/app7_tedad_moshtari_kol"
+                        style="@style/lable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="تعداد مشتري کل:"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <LinearLayout
+                        style="@style/RowStyle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/app7_kanal_vizitor_"
+                            style="@style/Text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="عمده فروشي ها"/>
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/app7_kanal_vizitor"
+                            style="@style/lable"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="کانال فروشنده:"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:background="#C0E7F3">
+
+                    <View style="@style/hBorder"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        style="@style/RowStyle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/app7_darkhast_kharej_masir_no_"
+                            style="@style/Text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="99"/>
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/app7_darkhast_kharej_masir_no"
+                            style="@style/lable"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="تعداد  درخواست  خارج  مسير:"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        style="@style/RowStyle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/app7_mablagh_darkhast_min_"
+                            style="@style/Text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500000"/>
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/app7_mablagh_darkhast_min"
+                            style="@style/lable"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="حداقل مبلغ درخواست:"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        style="@style/RowStyle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/app7_zayeat_max_"
+                            style="@style/Text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2500000"/>
+
+                    <org.sayesaman.customeviews.CustomTextView
+                            android:id="@+id/app7_zayeat_max"
+                            style="@style/lable"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="حداکثر مبلغ قابل قبول ضايعات:"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:background="#C0E7F3">
+
+                    <View style="@style/hBorder"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

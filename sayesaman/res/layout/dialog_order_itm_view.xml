@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/productview_title_border" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp" >
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="1"
+                android:id="@+id/dialog_order_itm_no"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:singleLine="false"
+                android:layout_marginRight="20dp"
+                android:textColor="#010101"/>
+
+        <ImageView
+        android:id="@+id/dialog_order_itm_goods_image"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/news"
+        android:scaleType="fitCenter"/>
+
+    <org.sayesaman.customeviews.CustomTextView
+        android:id="@+id/dialog_order_itm_goods_code"
+        style="@style/txt_Suppliyer_type"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/dialog_order_itm_goods_image"
+        android:text="کد کالا"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:gravity="center_vertical|center_horizontal|right"/>
+
+    <org.sayesaman.customeviews.CustomTextView
+        android:id="@+id/dialog_order_itm_goods_name"
+        style="@style/txt_Suppliyer_type"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/dialog_order_itm_goods_code"
+        android:layout_below="@+id/dialog_order_itm_goods_code"
+        android:layout_marginTop="20dp"
+        android:text="نام کالا"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18dp"
+        android:autoText="false"
+        android:gravity="center_vertical|center_horizontal|right"/>
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/edittext_rounded_corners">
+
+                <org.sayesaman.customeviews.CustomTextView
+                    android:id="@+id/dialog_order_itm_qty"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="100"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="#ba2920"/>
+
+                <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/dialog_order_itm_qty_"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="تعداد : "
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal|right"
+                android:textSize="16dp"
+                android:layout_marginRight="10dp"/>
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/edittext_rounded_corners"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/tableRow3">
+
+                <org.sayesaman.customeviews.CustomTextView
+                        android:id="@+id/dialog_order_itm_carton"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="12"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:textColor="#ba2920"/>
+
+                <org.sayesaman.customeviews.CustomTextView
+                        android:id="@+id/dialog_order_itm_carton_"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="تعداد در کارتن :  "
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal|right"
+                        android:textSize="16dp"
+                        android:layout_marginRight="10dp"/>
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/tableRow"
+                    android:background="@drawable/edittext_rounded_corners"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="10dp">
+
+                <org.sayesaman.customeviews.CustomTextView
+                        android:id="@+id/dialog_order_itm_unit_price"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="12,000,000"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:textColor="#ba2920"/>
+
+                <org.sayesaman.customeviews.CustomTextView
+                        android:id="@+id/dialog_order_itm_unit_price_"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="قيمت واحد : "
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal|right"
+                        android:textSize="16dp"
+                        android:layout_marginRight="10dp"/>
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/tableRow2"
+                    android:background="@drawable/edittext_rounded_corners"
+                    android:layout_marginLeft="10dp">
+
+                <org.sayesaman.customeviews.CustomTextView
+                        android:id="@+id/dialog_order_itm_sum_price"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="1,200,000,000"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:textColor="#ba2920"/>
+
+                <org.sayesaman.customeviews.CustomTextView
+                        android:id="@+id/dialog_order_itm_sum_price_"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="قيمت کل : "
+                        android:gravity="center_vertical|center_horizontal|right"
+                        android:textSize="16dp"
+                        android:layout_marginRight="10dp"/>
+            </TableRow>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

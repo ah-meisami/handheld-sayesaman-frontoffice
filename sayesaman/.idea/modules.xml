@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AdvancedMapViewer/AdvancedMapViewer.iml" filepath="$PROJECT_DIR$/../AdvancedMapViewer/AdvancedMapViewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../BitmapScaling/BitmapScaling.iml" filepath="$PROJECT_DIR$/../../BitmapScaling/BitmapScaling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Library-JakeWharton-ViewPagerIndicator-2.4.1/Library-JakeWharton-ViewPagerIndicator-2.4.1.iml" filepath="$PROJECT_DIR$/../Library-JakeWharton-ViewPagerIndicator-2.4.1/Library-JakeWharton-ViewPagerIndicator-2.4.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sayesaman.iml" filepath="$PROJECT_DIR$/sayesaman.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sktheme/sktheme.iml" filepath="$PROJECT_DIR$/../sktheme/sktheme.iml" />
+    </modules>
+  </component>
+</project>
+

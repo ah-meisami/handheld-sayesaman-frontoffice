@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/spinner_goodsgroup_layout"
+              android:gravity="center_vertical|center_horizontal|right">
+
+    <View style="@style/hBorder"/>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/spinner_goodsgroup_item3"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:text="BuyType"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="14dp"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/spinner_goodsgroup_item2"
+                android:layout_width="150dp"
+                android:layout_height="fill_parent"
+                android:text="BuyType"
+                android:gravity="center_vertical|center_horizontal|right"
+                android:textSize="14dp"
+                android:layout_marginRight="10dp"/>
+
+        <View style="@style/vBorder"/>
+
+        <org.sayesaman.customeviews.CustomTextView
+                android:id="@+id/spinner_goodsgroup_item1"
+                android:text="رديف"
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="14dp"/>
+
+        <View style="@style/vBorder"/>
+    </LinearLayout>
+
+    <View style="@style/hBorder"/>
+
+</LinearLayout>

@@ -1,0 +1,1983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidDesignerProfile">
+    <option name="fullProfile">
+      <profile>
+        <option name="device" value="7in WSVGA (Tablet)" />
+        <option name="deviceConfiguration" value="Landscape" />
+        <option name="targetHashString" value="android-17" />
+        <option name="theme" value="AppTheme" />
+      </profile>
+    </option>
+    <option name="selection" value="[Full]" />
+  </component>
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState>
+        <option name="visible" value="false" />
+      </GlobalState>
+    </option>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <target>android-17</target>
+      </config>
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/res/layout/app3.xml">
+        <config>
+          <device>Nexus 7</device>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/app3_footer.xml">
+        <config>
+          <device>Nexus 7</device>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/app3_header.xml">
+        <config>
+          <device>Nexus 7</device>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/app6_activity_main.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/app6_list_group.xml">
+        <config>
+          <device>Nexus 7</device>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/app7.xml">
+        <config>
+          <device>10.1in WXGA (Tablet)</device>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/app9.xml">
+        <config>
+          <device>Nexus 7</device>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp1.xml">
+        <config>
+          <device>Nexus 7</device>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp1_footer.xml">
+        <config>
+          <device>Nexus 7</device>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp1_header.xml">
+        <config>
+          <device>Nexus 7</device>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp1_row.xml">
+        <config>
+          <device>Nexus 7</device>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp3.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp3_footer.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp3_header.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp3_row.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp4.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp5.xml">
+        <config>
+          <device>Nexus 10</device>
+          <state>Portrait</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp6_footer.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp6_header.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp6_row.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp7_damage_footer.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp7_damage_header.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp7_damage_row.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp7_goodsgrpoup_order_footer.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp7_goodsgrpoup_order_header.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp7_goodsgrpoup_order_row.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp7_order_footer.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp7_order_header.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp7_order_row.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp7_spinner_buytype.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp8_footer.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/bpp8_row.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/dialog_cust.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/dialog_goods.xml">
+        <config>
+          <device>10.1in WXGA (Tablet)</device>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/dialog_order.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/dialog_order_itm_view.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/dialog_report2.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/dialog_report2_row.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/tut1.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/tut1_view.xml">
+        <config>
+          <device>Nexus 7</device>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/tut3.xml">
+        <config>
+          <device>Nexus 7</device>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/tut3_property_head.xml">
+        <config>
+          <device>Nexus 7</device>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/tut3_property_item.xml">
+        <config>
+          <device>Nexus 7</device>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/tut4_fragment.xml">
+        <config>
+          <device>Nexus 7</device>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/tut4_fragment_footer.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/tut4_fragment_header.xml">
+        <config>
+          <device>Nexus 7</device>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/tut5_fragment.xml">
+        <config>
+          <device>Nexus 7</device>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/tut8.xml">
+        <config>
+          <device>7in WSVGA (Tablet)</device>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/tut8_customer.xml">
+        <config>
+          <device>7in WSVGA (Tablet)</device>
+          <state>Landscape</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/../sktheme/res/layout/product_catalog.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/../sktheme/res/layout/productview.xml">
+        <config>
+          <device>Nexus 10</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/app2_btn13_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/app2_btn13_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/app2_btn14_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/app2_btn14_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/app2_btn15_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/app2_btn15_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/app2_btn16_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/app2_btn16_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/app2_btn17_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/app2_btn17_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/app2_btn18_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/app2_btn18_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/office2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/sayesaman/bpp7/DamageGoods.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/sayesaman/bpp7/DamageMainGroup.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/sayesaman/bpp7/DamageSubGroup.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/sayesaman/keypad/Keypad.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/sayesaman/app3/MyActivity2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/sayesaman/app3/MyActivity3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/sayesaman/bpp7/OrderGoods.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/sayesaman/bpp7/OrderMainGroup.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/sayesaman/bpp7/OrderSubGroup.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/sayesaman/database/model/RetCause.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/sayesaman/database/dao/RetCauseDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/app2_btn19.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/bpp7_damage_footer.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/bpp7_damage_header.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/bpp7_damage_row.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/bpp7_goodsgrpoup_damage.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/bpp7_goodsgrpoup_damage_footer.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/bpp7_goodsgrpoup_damage_header.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/bpp7_goodsgrpoup_damage_row.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/bpp7_goodsgrpoup_order.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/bpp7_goodsgrpoup_order_footer.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/bpp7_goodsgrpoup_order_header.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/bpp7_goodsgrpoup_order_row.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/bpp7_order.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/bpp7_order_header.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/keypad.xml" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\res\layout\bpp7_header.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\res\layout\spinner_buytype.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\bpp7\AdapterSpinnerGoodsGroup.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\bpp7\MyActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\DatabaseHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\dao\BuyTypeDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\dao\ConfigDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\dao\CustomerDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\dao\DamageDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\dao\GoalDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\dao\GoodsDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\dao\GoodsGroupDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\dao\OrderDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\dao\SalePathDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\dao\TourDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\model\BuyType.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\model\Config.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\model\Customer.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\model\DamageHdr.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\model\DamageItem.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\model\DamageStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\model\GoalHdr.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\model\GoalItm.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\model\Goods.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\model\GoodsGroup.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\model\OrderHdr.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\model\OrderItem.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\model\OrderStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\model\SalePath.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\model\Tour.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\model\reports\Report1.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\model\reports\Report2Hdr.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\database\database\model\reports\Report2Itm.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/sayesaman/bpp7/AdapterSpinnerBuyType.java" afterPath="$PROJECT_DIR$/src/org/sayesaman/bpp7/AdapterSpinnerBuyType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/sayesaman/database/dao/BuyTypeDao.java" afterPath="$PROJECT_DIR$/src/org/sayesaman/database/dao/BuyTypeDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/sayesaman/database/dao/CustomerDao.java" afterPath="$PROJECT_DIR$/src/org/sayesaman/database/dao/CustomerDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/sayesaman/database/dao/DamageDao.java" afterPath="$PROJECT_DIR$/src/org/sayesaman/database/dao/DamageDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/sayesaman/database/dao/GoodsDao.java" afterPath="$PROJECT_DIR$/src/org/sayesaman/database/dao/GoodsDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/sayesaman/database/dao/GoodsGroupDao.java" afterPath="$PROJECT_DIR$/src/org/sayesaman/database/dao/GoodsGroupDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/sayesaman/bpp2/MyActivity.java" afterPath="$PROJECT_DIR$/src/org/sayesaman/bpp2/MyActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/sayesaman/bpp6/MyActivity.java" afterPath="$PROJECT_DIR$/src/org/sayesaman/bpp6/MyActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/sayesaman/bpp8/MyActivity.java" afterPath="$PROJECT_DIR$/src/org/sayesaman/bpp8/MyActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/sayesaman/database/dao/SalePathDao.java" afterPath="$PROJECT_DIR$/src/org/sayesaman/database/dao/SalePathDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/sayesaman/dialog/Statics.java" afterPath="$PROJECT_DIR$/src/org/sayesaman/dialog/Statics.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/sayesaman/database/dao/TourDao.java" afterPath="$PROJECT_DIR$/src/org/sayesaman/database/dao/TourDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/bpp6.xml" afterPath="$PROJECT_DIR$/res/layout/bpp6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/bpp6_footer.xml" afterPath="$PROJECT_DIR$/res/layout/bpp6_footer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/bpp6_header.xml" afterPath="$PROJECT_DIR$/res/layout/bpp6_header.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/bpp6_row.xml" afterPath="$PROJECT_DIR$/res/layout/bpp6_row.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/dao_damage.xml" afterPath="$PROJECT_DIR$/res/values/dao_damage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/dao_goodsgroup.xml" afterPath="$PROJECT_DIR$/res/values/dao_goodsgroup.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/dao_order.xml" afterPath="$PROJECT_DIR$/res/values/dao_order.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/dao_path.xml" afterPath="$PROJECT_DIR$/res/values/dao_path.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/values.xml" afterPath="$PROJECT_DIR$/res/values/values.xml" />
+      <change type="MOVED" beforePath="D:\Dropbox\android\sayesaman\res\layout\bpp7.xml" afterPath="$PROJECT_DIR$/res/layout/bpp7_damage.xml" />
+      <change type="MOVED" beforePath="D:\Dropbox\android\sayesaman\res\layout\bpp7_footer.xml" afterPath="$PROJECT_DIR$/res/layout/bpp7_order_footer.xml" />
+      <change type="MOVED" beforePath="D:\Dropbox\android\sayesaman\res\layout\spinner_goodsgroup.xml" afterPath="$PROJECT_DIR$/res/layout/bpp7_spinner_buytype.xml" />
+      <change type="MOVED" beforePath="D:\Dropbox\android\sayesaman\src\org\sayesaman\bpp8\Report2Dialog.java" afterPath="$PROJECT_DIR$/src/org/sayesaman/dialog/report2/Report2Dialog.java" />
+    </list>
+    <ignored path="Project08_Sayesaman.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/fragment.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385885659954" ignored="false" />
+    <file path="/strings.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382196299931" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385885061420" ignored="false" />
+    <file path="/splash_screen.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375604885516" ignored="false" />
+    <file path="$PROJECT_DIR$/../AndroidSplashScreen/AndroidSplashScreenTimer/project.properties" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375605082187" ignored="false" />
+    <file path="$PROJECT_DIR$/../AndroidSplashScreen/AndroidSplashScreenTimer/gen/info/androidhive/androidsplashscreentimer/R.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375605082187" ignored="false" />
+    <file path="/activity_splash.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376467737636" ignored="false" />
+    <file path="/themes.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375607250032" ignored="false" />
+    <file path="$PROJECT_DIR$/../AndroidSplashScreen/AndroidSplashScreen/AndroidSplashScreenTimer/project.properties" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375620840569" ignored="false" />
+    <file path="$PROJECT_DIR$/../AndroidSplashScreen/AndroidSplashScreen/AndroidSplashScreenTimer/gen/info/androidhive/androidsplashscreentimer/R.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375620841026" ignored="false" />
+    <file path="$PROJECT_DIR$/../Project08_Sayesaman/Project08_Sayesaman/project.properties" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375621978403" ignored="false" />
+    <file path="/SplashScreen.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379017489433" ignored="false" />
+    <file path="$PROJECT_DIR$/../AndroidSplashScreen/AndroidSplashScreen/AndroidSplashScreenTimer/src/info/androidhive/androidsplashscreentimer/SplashScreen.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375623521377" ignored="false" />
+    <file path="/MainActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1383484189482" ignored="false" />
+    <file path="/Customers.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376738188422" ignored="false" />
+    <file path="/DatabaseHandler.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1380010268792" ignored="false" />
+    <file path="/activity_customers_gridview_item.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375687445626" ignored="false" />
+    <file path="/activity_customers.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375698639163" ignored="false" />
+    <file path="/common_spinner_item.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376503388408" ignored="false" />
+    <file path="/Goods.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1380126613221" ignored="false" />
+    <file path="/activity_goods.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375699626355" ignored="false" />
+    <file path="$PROJECT_DIR$/../AndroidAnimationsUsingXML/AndroidAnimations/project.properties" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375700822419" ignored="false" />
+    <file path="$PROJECT_DIR$/../AndroidAnimationsUsingXML/AndroidAnimations/gen/info/androidhive/androidanimations/R.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375700828098" ignored="false" />
+    <file path="$PROJECT_DIR$/../AndroidAnimationsUsingXML/AndroidAnimations/gen/info/androidhive/androidanimations/BuildConfig.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375700828098" ignored="false" />
+    <file path="$PROJECT_DIR$/../AndroidAnimationsUsingXML/AndroidAnimations/src/info/androidhive/androidanimations/BounceActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375703449618" ignored="false" />
+    <file path="/activity_goods2.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375706367836" ignored="false" />
+    <file path="/a.dummy" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385820824020" ignored="false" />
+    <file path="/activity_main2.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376476130042" ignored="false" />
+    <file path="/Dummy.txt" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385902621700" ignored="false" />
+    <file path="/ImageAdapter.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377321490948" ignored="false" />
+    <file path="$PROJECT_DIR$/../AndroidGridLayout/AndroidGridLayout/src/com/example/androidhive/FullImageActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375777890588" ignored="false" />
+    <file path="$PROJECT_DIR$/../AndroidGridLayout/AndroidGridLayout/src/com/example/androidhive/AndroidGridLayoutActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375777895444" ignored="false" />
+    <file path="/gridviewimage_main.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375778221836" ignored="false" />
+    <file path="$PROJECT_DIR$/../Dialog/src/net/learn2develop/Dialog/DialogActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375780898134" ignored="false" />
+    <file path="/strings_model.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375787484364" ignored="false" />
+    <file path="/strings_database.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375789739671" ignored="false" />
+    <file path="/Tour.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377689247021" ignored="false" />
+    <file path="/database.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375797689609" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/org/sayesaman/sale/R.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375798519114" ignored="false" />
+    <file path="/Goods_Origin.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375798541216" ignored="false" />
+    <file path="/GoodsAdapter.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375799106354" ignored="false" />
+    <file path="/GoodsActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375815496430" ignored="false" />
+    <file path="/Shared.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375813962547" ignored="false" />
+    <file path="/App.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382191801852" ignored="false" />
+    <file path="/DatabaseService.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375821254957" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu-master/pom.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375856573122" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu-master/library/pom.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375857066767" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu-master/library/AndroidManifest.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375857066767" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu-master/library/.idea/workspace.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375857263309" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu-master/library/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivityHelper.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375857066767" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu-master/library/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingFragmentActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375857066767" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu-master/library/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375857066767" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu-master/library/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivityBase.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375857066767" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu-master/library/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingPreferenceActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375857066767" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu-master/library/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingListActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375857066767" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu-master/library/LICENSE.txt" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375857066767" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu-master/library/project.properties" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375857066767" ignored="false" />
+    <file path="$PROJECT_DIR$/../SlidingMenu-master/library/.idea/misc.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375857123914" ignored="false" />
+    <file path="$PROJECT_DIR$/../androidannotations-develop/examples/HelloWorldEclipse/gen/com/googlecode/androidannotations/helloworldeclipse/Manifest.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375867156028" ignored="false" />
+    <file path="$PROJECT_DIR$/../androidannotations-develop/examples/HelloWorldEclipse/gen/com/googlecode/androidannotations/helloworldeclipse/R.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375867156028" ignored="false" />
+    <file path="$PROJECT_DIR$/../androidannotations-develop/examples/HelloWorldEclipse/gen/com/googlecode/androidannotations/helloworldeclipse/BuildConfig.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375867156028" ignored="false" />
+    <file path="$PROJECT_DIR$/../androidannotations-develop/examples/HelloWorldEclipse/HelloWorldEclipse.iml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1375867211290" ignored="false" />
+    <file path="/MyActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385903307948" ignored="false" />
+    <file path="/ChartDemo.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376025741929" ignored="false" />
+    <file path="/GeneratedChartDemo.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376025865853" ignored="false" />
+    <file path="$PROJECT_DIR$/../ExpandableListView/project.properties" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376285404693" ignored="false" />
+    <file path="$PROJECT_DIR$/../WeatherActivity/vatsag.samples.weatherdisplay.WeatherActivity/src/vatsag/samples/weatherdisplay/BinderData.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376294287820" ignored="false" />
+    <file path="/BinderData.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376294272657" ignored="false" />
+    <file path="$PROJECT_DIR$/../WeatherActivity/vatsag.samples.weatherdisplay.WeatherActivity/src/vatsag/samples/weatherdisplay/WeatherActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376331395985" ignored="false" />
+    <file path="$PROJECT_DIR$/../WeatherActivity/vatsag.samples.weatherdisplay.WeatherActivity/res/layout/main.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376294373703" ignored="false" />
+    <file path="/weatherdata.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376294425766" ignored="false" />
+    <file path="$PROJECT_DIR$/../WeatherActivity/vatsag.samples.weatherdisplay.WeatherActivity/assets/weatherdata.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376294425766" ignored="false" />
+    <file path="$PROJECT_DIR$/../WeatherActivity/vatsag.samples.weatherdisplay.WeatherActivity/AndroidManifest.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376301939015" ignored="false" />
+    <file path="$PROJECT_DIR$/../WeatherActivity/vatsag.samples.weatherdisplay.WeatherActivity/res/layout/app2_row_gridview.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376331526115" ignored="false" />
+    <file path="/app2_row_gridview.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376460733321" ignored="false" />
+    <file path="/WeatherActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376331352259" ignored="false" />
+    <file path="$PROJECT_DIR$/../WeatherActivity/vatsag.samples.weatherdisplay.WeatherActivity/res/layout/app2_footer.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376331399832" ignored="false" />
+    <file path="/app2_footer.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376463457534" ignored="false" />
+    <file path="$PROJECT_DIR$/../WeatherActivity/vatsag.samples.weatherdisplay.WeatherActivity/res/layout/app2_main.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376331516339" ignored="false" />
+    <file path="/app2_row_list.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376460889069" ignored="false" />
+    <file path="$PROJECT_DIR$/../Android-ViewPagerIndicator-master/pom.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376461850320" ignored="false" />
+    <file path="$PROJECT_DIR$/../Android-ViewPagerIndicator-master/checkstyle.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376461850320" ignored="false" />
+    <file path="$PROJECT_DIR$/../Android-ViewPagerIndicator-master/sample/res/layout/themed_circles.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376461901199" ignored="false" />
+    <file path="$PROJECT_DIR$/../Android-ViewPagerIndicator-master/sample/pom.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376461901528" ignored="false" />
+    <file path="$PROJECT_DIR$/../Android-ViewPagerIndicator-master/sample/res/layout/simple_underlines.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376461901199" ignored="false" />
+    <file path="$PROJECT_DIR$/../Android-ViewPagerIndicator-master/sample/res/drawable/perm_group_location.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376461901199" ignored="false" />
+    <file path="$PROJECT_DIR$/../Android-ViewPagerIndicator-master/sample/AndroidManifest.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376461901528" ignored="false" />
+    <file path="$PROJECT_DIR$/../Android-ViewPagerIndicator-master/sample/res/layout/simple_circles_vertical.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376461901199" ignored="false" />
+    <file path="$PROJECT_DIR$/../Android-ViewPagerIndicator-master/sample/project.properties" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376461901830" ignored="false" />
+    <file path="/app1_splash.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376475855553" ignored="false" />
+    <file path="/app2.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1383479858451" ignored="false" />
+    <file path="/app2_main.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376494957085" ignored="false" />
+    <file path="/a1.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376496218008" ignored="false" />
+    <file path="/app2_btn_list.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376496734217" ignored="false" />
+    <file path="/app2_btn01.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376497623619" ignored="false" />
+    <file path="/Path.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376502229726" ignored="false" />
+    <file path="/MyArrayAdapter.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376511658765" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-aa/org/sayesaman/database/DatabaseService_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376510897596" ignored="false" />
+    <file path="/SalePathAdapter.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376523703407" ignored="false" />
+    <file path="/app4_row_salepath.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376521933030" ignored="false" />
+    <file path="/row.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376516948786" ignored="false" />
+    <file path="/SoftwarePassionView.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376517346185" ignored="false" />
+    <file path="/tut1.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377321466708" ignored="false" />
+    <file path="$PROJECT_DIR$/../Android Example/SKdemo/project.properties" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376520935369" ignored="false" />
+    <file path="$PROJECT_DIR$/../Android Example/SKdemo/src/com/example/skdemo/listAdapter.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376521069966" ignored="false" />
+    <file path="/SalePath.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378635095188" ignored="false" />
+    <file path="/tut1_product.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376567606596" ignored="false" />
+    <file path="/tut3.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377163095387" ignored="false" />
+    <file path="/tut3_view.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376569743816" ignored="false" />
+    <file path="/tut3_row_products.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376995816542" ignored="false" />
+    <file path="$PROJECT_DIR$/../ViewPagerTutorial/src/com/programmingmobile/pageviewer/PageViewActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376733860080" ignored="false" />
+    <file path="$PROJECT_DIR$/../ViewPagerTutorial/src/com/programmingmobile/pageviewer/MyFragment.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376733870077" ignored="false" />
+    <file path="/Customer.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379146337556" ignored="false" />
+    <file path="/PageViewActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378834636362" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-aa/org/sayesaman/tut4/viewpager/PageViewActivity_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376824275444" ignored="false" />
+    <file path="/MyFragment.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379156410303" ignored="false" />
+    <file path="/tut4_fragment.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379361914941" ignored="false" />
+    <file path="/SetImage.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376813278775" ignored="false" />
+    <file path="/MyImgLoader.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376814065084" ignored="false" />
+    <file path="/tut5_fragment.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376931161065" ignored="false" />
+    <file path="$USER_HOME$/Sayesaman/src/org/sayesaman/tut4/path/MyActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376845981694" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-aa/org/sayesaman/tut4/viewpager/MyFragment_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376845785268" ignored="false" />
+    <file path="$USER_HOME$/Sayesaman/gen-aa/org/sayesaman/tut4/path/MyFragment_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376845839715" ignored="false" />
+    <file path="$USER_HOME$/Sayesaman/gen-aa/org/sayesaman/tut4/viewpager/MyFragment_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376845839715" ignored="false" />
+    <file path="$USER_HOME$/Sayesaman/src/org/sayesaman/tut4/path/FragmentSalePath.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376846220480" ignored="false" />
+    <file path="$USER_HOME$/Sayesaman/gen-aa/org/sayesaman/tut4/path/MyActivity_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376847078722" ignored="false" />
+    <file path="$USER_HOME$/Sayesaman/gen-aa/org/sayesaman/tut1/sakhtemankala/MyActivity_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376846080841" ignored="false" />
+    <file path="$USER_HOME$/Sayesaman/gen-aa/org/sayesaman/tut5/cust/PageViewActivity_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376846080841" ignored="false" />
+    <file path="$USER_HOME$/Sayesaman/gen-aa/org/sayesaman/tut4/path/FragmentSalePath_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376847078722" ignored="false" />
+    <file path="$USER_HOME$/Sayesaman/src/org/sayesaman/database/DatabaseHandler.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376846034766" ignored="false" />
+    <file path="$USER_HOME$/Sayesaman/gen-aa/org/sayesaman/app4/CustomerActivity_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376846080841" ignored="false" />
+    <file path="/FragmentSalePath.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379359836510" ignored="false" />
+    <file path="$USER_HOME$/Sayesaman/src/org/sayesaman/database/model/SalePath.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376846410280" ignored="false" />
+    <file path="$USER_HOME$/Sayesaman/gen-aa/org/sayesaman/database/model/SalePath_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376847078722" ignored="false" />
+    <file path="$USER_HOME$/Sayesaman/res/layout/tut4.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376846465610" ignored="false" />
+    <file path="$USER_HOME$/Sayesaman/AndroidManifest.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376846949939" ignored="false" />
+    <file path="$USER_HOME$/Sayesaman/gen/org/sayesaman/R.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376846951658" ignored="false" />
+    <file path="$PROJECT_DIR$/../JakeWharton-Android-ViewPagerIndicator-2.4.1-0-g8cd549f/JakeWharton-Android-ViewPagerIndicator-8cd549f/sample/src/com/viewpagerindicator/sample/SampleTabsDefault.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376848771057" ignored="false" />
+    <file path="/tut4_page.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378888997788" ignored="false" />
+    <file path="/styles.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378887319935" ignored="false" />
+    <file path="/tut4_fragment_header.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376924659670" ignored="false" />
+    <file path="/tut5_page.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376927379589" ignored="false" />
+    <file path="/tut6_fragment_header.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376929773010" ignored="false" />
+    <file path="/tut6_fragment.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376929937385" ignored="false" />
+    <file path="/app3_header.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381414326378" ignored="false" />
+    <file path="/app3_footer.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378832871621" ignored="false" />
+    <file path="/GoodsGroup.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379788924580" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-aa/org/sayesaman/database/model/GoodsGroup_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377108994278" ignored="false" />
+    <file path="/app3_main.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378833799486" ignored="false" />
+    <file path="/GoodsGroupAdapter.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376948671332" ignored="false" />
+    <file path="/ListViewAdapter.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376952858199" ignored="false" />
+    <file path="/app3_row_list.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381228015262" ignored="false" />
+    <file path="/GridViewAdapter.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379156124555" ignored="false" />
+    <file path="D:/adt-bundle-windows-x86-20130522/sdk/platforms/android-17/data/res/values/attrs_manifest.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376983585949" ignored="false" />
+    <file path="D:/adt-bundle-windows-x86-20130522/sdk/platforms/android-17/data/res/values/attrs.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376983585949" ignored="false" />
+    <file path="/tut7.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1376989345525" ignored="false" />
+    <file path="/tut3_goods.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377160871878" ignored="false" />
+    <file path="$PROJECT_DIR$/../android-accordion-view-master/android-accordion-view-master/src/com/sentaca/android/accordion/AccordionWidgetDemoActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377003982411" ignored="false" />
+    <file path="$PROJECT_DIR$/../android-accordion-view-master/android-accordion-view-master/res/values/strings.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377004195809" ignored="false" />
+    <file path="/tut3_property_head.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377011022983" ignored="false" />
+    <file path="/tut3_property_item.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377010151959" ignored="false" />
+    <file path="$PROJECT_DIR$/../android-accordion-view-master/android-accordion-view-master/gen/com/sentaca/android/accordion/BuildConfig.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377088406945" ignored="false" />
+    <file path="/app3_row_gridview.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378831805989" ignored="false" />
+    <file path="$PROJECT_DIR$/../ExpandableListView/ExpandableListView/src/info/androidhive/expandablelistview/MainActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377109858549" ignored="false" />
+    <file path="$PROJECT_DIR$/../ExpandableListView/ExpandableListView/src/info/androidhive/expandablelistview/ExpandableListAdapter.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377109869995" ignored="false" />
+    <file path="/MainGroup.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377320953172" ignored="false" />
+    <file path="/GoodsGroupDao.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385894648365" ignored="false" />
+    <file path="/strings_goods_group.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377175631387" ignored="false" />
+    <file path="/ExpandableListAdapter.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379157677815" ignored="false" />
+    <file path="/app6_list_item.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377323012348" ignored="false" />
+    <file path="/app6_list_group.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377321927617" ignored="false" />
+    <file path="/PersianFont.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377327587811" ignored="false" />
+    <file path="/PersianFontStyle.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377330208611" ignored="false" />
+    <file path="$PROJECT_DIR$/../../MyAndroidApp/gen/com/mkyong/android/BuildConfig.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377348485743" ignored="false" />
+    <file path="/app3_dialog.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377351029074" ignored="false" />
+    <file path="$PROJECT_DIR$/../../LoadingScreenAsyncTask/src/fortyonepost/lsa/LoadingScreenActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377433497639" ignored="false" />
+    <file path="/LoadViewTask.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377433230908" ignored="false" />
+    <file path="/MyDialog.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377433536197" ignored="false" />
+    <file path="/app8_dialog.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377439917983" ignored="false" />
+    <file path="/ReadWebpageAsyncTask.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377499046756" ignored="false" />
+    <file path="/Test.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379157580190" ignored="false" />
+    <file path="/MyActivity" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377518638982" ignored="false" />
+    <file path="/tut8.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378909719431" ignored="false" />
+    <file path="/CustomerDao.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1380133070542" ignored="false" />
+    <file path="/CustomerActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378635650971" ignored="false" />
+    <file path="/strings_customer.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379073253050" ignored="false" />
+    <file path="/tut8_customer.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379155256333" ignored="false" />
+    <file path="/one.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377552527703" ignored="false" />
+    <file path="$PROJECT_DIR$/../../meisami/res/layout/app7.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377684630219" ignored="false" />
+    <file path="$PROJECT_DIR$/../../meisami/res/layout/app.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377684630219" ignored="false" />
+    <file path="$PROJECT_DIR$/../../meisami/res/layout/main1.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377684630219" ignored="false" />
+    <file path="$PROJECT_DIR$/../../meisami/res/layout/test.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377684630219" ignored="false" />
+    <file path="$PROJECT_DIR$/../../meisami/project.properties" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377684630571" ignored="false" />
+    <file path="/app7.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378641810626" ignored="false" />
+    <file path="/TourDao.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377689318009" ignored="false" />
+    <file path="/Util.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1377689647046" ignored="false" />
+    <file path="$USER_HOME$/android/sayesaman/gen-aa/org/sayesaman/bpp1/MyActivity_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378570259484" ignored="false" />
+    <file path="/bpp1_goods.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378623143436" ignored="false" />
+    <file path="/bpp1.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378624194963" ignored="false" />
+    <file path="/bpp1_header.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379407744964" ignored="false" />
+    <file path="/PersianDate.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378628476825" ignored="false" />
+    <file path="/SalePathDao.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378635263237" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-aa/org/sayesaman/tut4/path/MyFragment_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378635517745" ignored="false" />
+    <file path="/app9.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378665132182" ignored="false" />
+    <file path="/border.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378638841076" ignored="false" />
+    <file path="/addresses.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378676566359" ignored="false" />
+    <file path="/Address.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378667539430" ignored="false" />
+    <file path="/Access.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378668026791" ignored="false" />
+    <file path="/ConfigDao.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382192666722" ignored="false" />
+    <file path="$PROJECT_DIR$/../../AndroidDownloadFileByProgressBar/AndroidDownloadFileByProgressBar/src/com/example/androidhive/AndroidDownloadFileByProgressBarActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378741271085" ignored="false" />
+    <file path="/AndroidDownloadFileByProgressBarActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378803089499" ignored="false" />
+    <file path="/bpp4.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379773090558" ignored="false" />
+    <file path="/UpdateChecker.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378824128320" ignored="false" />
+    <file path="$PROJECT_DIR$/../../r1/android/sayesaman/gen-aa/org/sayesaman/tut1/sakhtemankala/MyActivity_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378807904477" ignored="false" />
+    <file path="$PROJECT_DIR$/../../r1/android/sayesaman/gen-aa/org/sayesaman/tut6/goods/PageViewActivity_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378807904477" ignored="false" />
+    <file path="$PROJECT_DIR$/../../r1/android/sayesaman/gen-aa/org/sayesaman/tut6/goods/FragmentGoods_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378807904477" ignored="false" />
+    <file path="$PROJECT_DIR$/../../r1/android/sayesaman/gen-aa/org/sayesaman/test/MyActivity_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378807904477" ignored="false" />
+    <file path="$PROJECT_DIR$/../../r1/android/sayesaman/gen-aa/org/sayesaman/tut5/cust/MyFragment_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378807904477" ignored="false" />
+    <file path="$PROJECT_DIR$/../../r1/android/sayesaman/gen-aa/org/sayesaman/tut5/cust/PageViewActivity_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378807904477" ignored="false" />
+    <file path="$PROJECT_DIR$/../../r1/android/sayesaman/gen-aa/org/sayesaman/tut8/thread/Test_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378807904477" ignored="false" />
+    <file path="$PROJECT_DIR$/../../r1/android/sayesaman/gen-aa/org/sayesaman/tut7/sakhtemankala/scrollview/two/way/MyActivity_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378807904477" ignored="false" />
+    <file path="$PROJECT_DIR$/../../r1/android/sayesaman/gen-aa/org/sayesaman/tut4/path/FragmentSalePath_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378807904478" ignored="false" />
+    <file path="$PROJECT_DIR$/../../r1/android/sayesaman/gen-aa/org/sayesaman/tut4/path/PageViewActivity_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378807904478" ignored="false" />
+    <file path="$PROJECT_DIR$/../../r1/android/sayesaman/res/layout/app3_row_gridview.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378808527353" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-aa/org/sayesaman/bpp4/AndroidDownloadFileByProgressBarActivity_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378812147908" ignored="false" />
+    <file path="/UpdateActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379773630582" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-aa/org/sayesaman/app9/MyActivity_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378813258864" ignored="false" />
+    <file path="/www.txt" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378813507440" ignored="false" />
+    <file path="/DownloadManager.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378827887440" ignored="false" />
+    <file path="/q.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379490671987" ignored="false" />
+    <file path="/FragmentGoods.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379156319546" ignored="false" />
+    <file path="/GoodsDao.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385892088177" ignored="false" />
+    <file path="/bpp5.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378881416592" ignored="false" />
+    <file path="$PROJECT_DIR$/../../BitmapScaling/src/com/example/android/bitmapscaling/BitmapScaling.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378878838849" ignored="false" />
+    <file path="/dialog_cust.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379333502264" ignored="false" />
+    <file path="/PersianTypeFace.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378901721087" ignored="false" />
+    <file path="/bpp3.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379090654810" ignored="false" />
+    <file path="/OrderItem.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379242293671" ignored="false" />
+    <file path="/OrderHdr.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378921391714" ignored="false" />
+    <file path="/OrderDao.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385876413705" ignored="false" />
+    <file path="/bpp3_row.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379068365757" ignored="false" />
+    <file path="/ABC.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378976093598" ignored="false" />
+    <file path="/bpp3_header.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379332247573" ignored="false" />
+    <file path="/CustomDialog.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378982050731" ignored="false" />
+    <file path="/customDialog.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378982125221" ignored="false" />
+    <file path="/NewsScreen.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378989654945" ignored="false" />
+    <file path="/NewsList.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378985792127" ignored="false" />
+    <file path="/news_view.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379000993210" ignored="false" />
+    <file path="/NewsDialog.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1378998641793" ignored="false" />
+    <file path="/CustomerDialog.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379926073498" ignored="false" />
+    <file path="/Statics.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381235490236" ignored="false" />
+    <file path="/OrderItmList.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379003649221" ignored="false" />
+    <file path="/NewsItem.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379001650574" ignored="false" />
+    <file path="/OrderDialog.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379314964654" ignored="false" />
+    <file path="/strings_order.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379084627062" ignored="false" />
+    <file path="/OrderItmView.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379334331034" ignored="false" />
+    <file path="/OrderHdrView.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379018006183" ignored="false" />
+    <file path="/dialog_order_itm_view.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379018870135" ignored="false" />
+    <file path="/OrderStatus.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379433300233" ignored="false" />
+    <file path="/dao_damage.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385890622900" ignored="false" />
+    <file path="/DamageDao.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385893955909" ignored="false" />
+    <file path="/DamageStatus.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379093872805" ignored="false" />
+    <file path="/dao_goods.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379098864593" ignored="false" />
+    <file path="/dialog_cust2.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379152765147" ignored="false" />
+    <file path="/DamageItmView.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379341001393" ignored="false" />
+    <file path="/DamageHdr.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379158780222" ignored="false" />
+    <file path="/DamageDialog.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379163532854" ignored="false" />
+    <file path="/DamageHdrView.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379159822865" ignored="false" />
+    <file path="/DamageItem.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379242313359" ignored="false" />
+    <file path="/ImageLoader.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379248288242" ignored="false" />
+    <file path="/QDialog.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379315285051" ignored="false" />
+    <file path="/CustomTextView.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379939310161" ignored="false" />
+    <file path="/attrs.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379329272076" ignored="false" />
+    <file path="/bpp3_footer.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379332664377" ignored="false" />
+    <file path="/bpp6_row.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1380356293016" ignored="false" />
+    <file path="/dao_customer.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379364850384" ignored="false" />
+    <file path="/dao_goods_group.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379367673142" ignored="false" />
+    <file path="/bpp1_row.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379410342419" ignored="false" />
+    <file path="/dao_order.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385568473191" ignored="false" />
+    <file path="/bpp8_header.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379423003263" ignored="false" />
+    <file path="/bpp8_row.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379422196167" ignored="false" />
+    <file path="/Report2.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379424971941" ignored="false" />
+    <file path="/Report2Dialog.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379486521525" ignored="false" />
+    <file path="/Report2Hdr.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379433384808" ignored="false" />
+    <file path="/Report2Itm.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379435596855" ignored="false" />
+    <file path="/dialog_report2.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379482528263" ignored="false" />
+    <file path="/dialog_report2_row.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379477275123" ignored="false" />
+    <file path="/bpp8_footer.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379489002459" ignored="false" />
+    <file path="/compare.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379488842840" ignored="false" />
+    <file path="/bpp7_header.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385797117451" ignored="false" />
+    <file path="$USER_HOME$/android/sayesaman/gen-aa/org/sayesaman/bpp6/MyActivity_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379780578263" ignored="false" />
+    <file path="$USER_HOME$/android/sayesaman/gen-aa/org/sayesaman/bpp7/MyActivity_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379780578263" ignored="false" />
+    <file path="$USER_HOME$/android/sayesaman/gen-aa/org/sayesaman/bpp8/MyActivity_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379780578264" ignored="false" />
+    <file path="$USER_HOME$/android/sayesaman/src/org/sayesaman/bpp7/MyActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379780670991" ignored="false" />
+    <file path="$USER_HOME$/android/sayesaman/src/org/sayesaman/database/dao/GoodsGroupDao.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379780746111" ignored="false" />
+    <file path="/bpp7.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379781071524" ignored="false" />
+    <file path="/BuyType.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379788758327" ignored="false" />
+    <file path="/BuyTypeDao.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1380028520133" ignored="false" />
+    <file path="/ListViewAdapter3.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379785673530" ignored="false" />
+    <file path="/dao_buytype.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379783192509" ignored="false" />
+    <file path="/InsertCommas.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379784891891" ignored="false" />
+    <file path="/bpp7_spinner.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379786205728" ignored="false" />
+    <file path="/AdapterBuyType.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379787971869" ignored="false" />
+    <file path="/spinner_buytype.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379791783999" ignored="false" />
+    <file path="/AdapterSpinnerGoodsGroup.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379851307688" ignored="false" />
+    <file path="/spinner_goodsgroup.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379791228940" ignored="false" />
+    <file path="/dao_path.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1379887946247" ignored="false" />
+    <file path="/AdapterSpinnerBuyType.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1380029938661" ignored="false" />
+    <file path="/values.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381235537366" ignored="false" />
+    <file path="/bpp7_row.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1380008349585" ignored="false" />
+    <file path="/popup.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1380087645498" ignored="false" />
+    <file path="$PROJECT_DIR$/../../PopupMenuDemo/src/in/wptrafficanalyzer/popupmenudemo/MainActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1380088417588" ignored="false" />
+    <file path="/catalog.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1380089231434" ignored="false" />
+    <file path="/bpp7_row_damage.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1380128094000" ignored="false" />
+    <file path="/dummy.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1380108202760" ignored="false" />
+    <file path="/RetCause.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1380118926535" ignored="false" />
+    <file path="/RetCauseDao.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1380124939388" ignored="false" />
+    <file path="/bpp6_header.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1380356229693" ignored="false" />
+    <file path="/bpp6_footer.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1380356720018" ignored="false" />
+    <file path="/MyActivity2.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381233097655" ignored="false" />
+    <file path="/MyActivity3.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381234927985" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/AndroidManifest.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403399115" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/res/values/strings.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403016681" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/res/layout/row_path.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403096099" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/com/example/androidhive/customeviews/CustomTextView.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403108027" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/com/example/androidhive/customeviews/CustomEditText.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381402889870" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/com/example/androidhive/Statics.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381402913218" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/com/example/androidhive/ScalingUtilities.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381402935567" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/com/example/androidhive/PersianDate.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381402935567" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/com/example/androidhive/InsertCommas.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381402935567" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/com/example/androidhive/util/ScalingUtilities.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381402968816" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/com/example/androidhive/util/PersianDate.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381402968816" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/com/example/androidhive/util/Statics.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403136171" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/com/example/androidhive/util/InsertCommas.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381402968817" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/gen/com/example/androidhive/R.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403290409" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/net/cloud/computing/helper/ConnectionDetector.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403373140" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/net/cloud/computing/helper/JSONParser.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403373140" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/net/cloud/computing/Activity4.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403497201" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/net/cloud/computing/Activity7.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403506983" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/net/cloud/computing/Activity3.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403494197" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/net/cloud/computing/Activity6.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403465616" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/net/cloud/computing/util/InsertCommas.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403373141" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/net/cloud/computing/Activity2.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403490637" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/net/cloud/computing/util/ScalingUtilities.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403373141" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/net/cloud/computing/Activity5.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403448932" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/net/cloud/computing/util/PersianDate.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403373141" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/net/cloud/computing/SingleTrackActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403509822" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/net/cloud/computing/util/Statics.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403540394" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/net/cloud/computing/customeviews/CustomTextView.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403373141" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/net/cloud/computing/Activity1.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403483080" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/net/cloud/computing/customeviews/CustomEditText.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403373142" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/bin/AndroidManifest.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403373142" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/src/net/cloud/computing/helper/AlertDialogManager.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403535324" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Android Multilevel ListView/AndroidMultiLevelListView/gen/net/cloud/computing/R.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381403619275" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/AndroidManifest.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382194560596" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/res/layout/row_path.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381404270535" ignored="false" />
+    <file path="/row_path.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381404146789" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/Activity1.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381404350449" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/app3/Activity7.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381419269683" ignored="false" />
+    <file path="/Activity7.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381418489701" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/res/values/strings.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382196338720" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/res/layout/dialog_goods.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381414692068" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/res/layout/app3_header.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381414507898" ignored="false" />
+    <file path="/dialog_goods.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381414583688" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/res/layout/row_customer.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381417278916" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/app1/XYZ.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381418250431" ignored="false" />
+    <file path="/XYZ.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381418247360" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/app1/Activity1.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382196354359" ignored="false" />
+    <file path="/Activity1.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382196114464" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/app1/SimpleAdapterPath.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381418360940" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/app1/MySimpleAdapter.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381418438027" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/adapter/MySimpleAdapter.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381418457887" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/app2/Activity5.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381418465938" ignored="false" />
+    <file path="/Activity5.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381418463527" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/app3/Activity6.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381419369844" ignored="false" />
+    <file path="/Activity6.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381418475145" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/app1/Activity2.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381418597529" ignored="false" />
+    <file path="/Activity2.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381418590543" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/app1/Activity3.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381418603813" ignored="false" />
+    <file path="/Activity3.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381418602297" ignored="false" />
+    <file path="/Activity4.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381418609349" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/app1/Activity4.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382165448746" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/res/layout/row_sale_itm.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381419213674" ignored="false" />
+    <file path="/row_sale_itm.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381418956776" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/res/layout/row_sale_hdr.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1381419568208" ignored="false" />
+    <file path="$USER_HOME$/Desktop/TabsWithSwipeGesture/.idea/workspace.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382000449923" ignored="false" />
+    <file path="/bpp7_row_order.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385570911812" ignored="false" />
+    <file path="$USER_HOME$/Desktop/keypad/src/com/one/slate/Home.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382161260484" ignored="false" />
+    <file path="/Keypad.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382878537336" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/res/layout/app.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382179681304" ignored="false" />
+    <file path="/app.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382179681304" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/res/layout/app_header.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382183844258" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/res/layout/app_footer.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382193801135" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/.idea/workspace.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382183844954" ignored="false" />
+    <file path="/app_header.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382183819498" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/config/MyActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382191891118" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/dao/ConfigDao.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382190898130" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/model/Config.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382190916372" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/database/model/Config.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382190967303" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/database/Config.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382190950642" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/database/dao/ConfigDao.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382191270086" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/database/DatabaseHandler.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382191151145" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/config/model/Config.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382191270086" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/config/dao/ConfigDao.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382192667545" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/config/DatabaseHandler.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382191476977" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/gen-aa/net/cloud/computing/config/MyActivity_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382191987252" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/gen/net/cloud/computing/R.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382194564540" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/gen-aa/net/cloud/computing/config/dao/ConfigDao_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382194719650" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/gen-aa/net/cloud/computing/config/DatabaseHandler_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382191478105" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/config/App.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382191816970" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/app4/MyActivity.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382196338720" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/util/Statics.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382192396111" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/gen-aa/net/cloud/computing/config/App_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382192396111" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/src/net/cloud/computing/config/MyApp.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382194617696" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/gen-aa/net/cloud/computing/app4/MyActivity_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382196360333" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/res/layout/layout_config.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382193942509" ignored="false" />
+    <file path="/app_footer.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382193647365" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/gen-aa/net/cloud/computing/app1/Activity1_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382194719650" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloudComputing/gen-aa/net/cloud/computing/config/MyApp_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1382194719650" ignored="false" />
+    <file path="/app2_btn19.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1383630378453" ignored="false" />
+    <file path="/app2_btn18.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1383630386757" ignored="false" />
+    <file path="/app2_btn17.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1383630395147" ignored="false" />
+    <file path="/app2_btn16.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1383630401235" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-aa/org/sayesaman/bpp7/MyActivity_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385545199966" ignored="false" />
+    <file path="/ActivitySubGroup.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385823213865" ignored="false" />
+    <file path="/dao_goodsgroup.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385894590003" ignored="false" />
+    <file path="/ActivityMainGroup.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385822812448" ignored="false" />
+    <file path="/ActivityGoods.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385876965415" ignored="false" />
+    <file path="/bpp7_goodsgrpoup_row.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385814287296" ignored="false" />
+    <file path="/bpp7_footer.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385796485449" ignored="false" />
+    <file path="$PROJECT_DIR$/src/org/sayesaman/app3/ListViewAdapter.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385798581765" ignored="false" />
+    <file path="$PROJECT_DIR$/src/org/sayesaman/app3/MyActivity1.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385798581765" ignored="false" />
+    <file path="/bpp7_goodsgrpoup_header.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385822716734" ignored="false" />
+    <file path="/bpp7_goodsgrpoup_footer.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385807281612" ignored="false" />
+    <file path="/bpp7_order.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385873616018" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-aa/org/sayesaman/bpp7/ActivitySubGroup_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385879678884" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-aa/org/sayesaman/bpp7/ActivityMainGroup_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385879690640" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-aa/org/sayesaman/bpp7/ActivityGoods_.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385879697973" ignored="false" />
+    <file path="/bpp7_damage.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385882091248" ignored="false" />
+    <file path="/DamageGoods.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385890306524" ignored="false" />
+    <file path="/bpp7_damage_header.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385884443084" ignored="false" />
+    <file path="/DamageMainGroup.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385895201763" ignored="false" />
+    <file path="/bpp7_goodsgrpoup_damage.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385884964434" ignored="false" />
+    <file path="/bpp7_goodsgrpoup_damage_header.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385885571943" ignored="false" />
+    <file path="/DamageSubGroup.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385894165504" ignored="false" />
+    <file path="/OrderSubGroup.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385893403499" ignored="false" />
+    <file path="/OrderMainGroup.java" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385906033163" ignored="false" />
+    <file path="/bpp7_order_header.xml" changelist="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" time="1385897664034" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Project08_Sayesaman" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/org/sayesaman/bpp7/OrderGoods.java" />
+        <option value="$PROJECT_DIR$/res/layout/bpp7_damage_footer.xml" />
+        <option value="$PROJECT_DIR$/src/org/sayesaman/database/dao/GoodsDao.java" />
+        <option value="$PROJECT_DIR$/src/org/sayesaman/bpp7/DamageGoods.java" />
+        <option value="$PROJECT_DIR$/src/org/sayesaman/bpp7/OrderSubGroup.java" />
+        <option value="$PROJECT_DIR$/src/org/sayesaman/bpp7/DamageSubGroup.java" />
+        <option value="$PROJECT_DIR$/res/values/dao_goodsgroup.xml" />
+        <option value="$PROJECT_DIR$/src/org/sayesaman/database/dao/GoodsGroupDao.java" />
+        <option value="$PROJECT_DIR$/res/values/dao_damage.xml" />
+        <option value="$PROJECT_DIR$/src/org/sayesaman/bpp7/DamageMainGroup.java" />
+        <option value="$PROJECT_DIR$/res/layout/bpp7_order_header.xml" />
+        <option value="$PROJECT_DIR$/res/layout/bpp7_goodsgrpoup_order_header.xml" />
+        <option value="$PROJECT_DIR$/src/org/sayesaman/database/dao/DamageDao.java" />
+        <option value="$PROJECT_DIR$/src/org/sayesaman/bpp3/MyActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/org/sayesaman/bpp7/OrderMainGroup.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1288" />
+    <option name="height" value="1004" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AndroidDomInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="library-invalid-classes-path(library:project:android-support-v4)" />
+      <problem id="library-invalid-classes-path(library:project:android-support-v7-gridlayout (2))" />
+      <problem id="library-invalid-classes-path(library:project:android-support-v7-gridlayout)" />
+      <problem id="library-invalid-classes-path(library:project:androidannotations-2.7.11)" />
+      <problem id="library-invalid-classes-path(library:project:httpclientandroidlib-1.1.2)" />
+      <problem id="library-invalid-classes-path(library:project:libs)" />
+      <problem id="library-invalid-classes-path(library:project:updatechecker)" />
+      <problem id="unused-library(library:project:android-support-v7-gridlayout (2))" />
+      <problem id="unused-library(library:project:androidannotations-2.7.1)" />
+      <problem id="unused-library(library:project:androidannotations-2.7.1)" />
+      <problem id="unused-library(library:project:androidannotations-2.7.11)" />
+      <problem id="unused-library(library:project:dexedLibs)" />
+      <problem id="unused-library(library:project:dexedLibs1)" />
+      <problem id="unused-library(library:project:dexedLibs2)" />
+      <problem id="unused-library(library:project:libs)" />
+    </ignored-problems>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages ProjectPane="false" />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sayesaman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sayesaman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sayesaman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sayesaman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sayesaman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sayesaman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sayesaman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sayesaman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sayesaman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bpp7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.sayesaman.bpp7" />
+      <recent name="org.sayesaman.keypad" />
+      <recent name="org.sayesaman.app3" />
+      <recent name="org.sayesaman.database.dao" />
+      <recent name="org.sayesaman.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dropbox\android\sayesaman\src\org\sayesaman\bpp7" />
+      <recent name="D:\Dropbox\android\sayesaman\res\layout" />
+      <recent name="D:\Dropbox\android\sayesaman\res\drawable-xhdpi" />
+      <recent name="D:\Dropbox\android\sayesaman\res\drawable" />
+      <recent name="C:\Users\ameysami.SAYESAMAN\Desktop\android\sayesaman\res\layout" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.sayesaman.app3" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.sayesaman.bpp8" />
+      <recent name="org.sayesaman.dialog.order" />
+      <recent name="org.sayesaman.bpp2" />
+      <recent name="org.sayesaman.bpp4" />
+      <recent name="org.sayesaman.database.model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dropbox\android\sayesaman\res\drawable" />
+      <recent name="C:\Users\ameysami.SAYESAMAN\Desktop\android\sayesaman\src\org\sayesaman\dialog\order\doc" />
+      <recent name="C:\Users\ameysami.SAYESAMAN\Desktop\android\sayesaman\src\org\sayesaman\tut8\thread\doc" />
+      <recent name="C:\Users\ameysami.SAYESAMAN\Desktop\android\sayesaman\src\org\sayesaman\bpp4\updatechecker\doc" />
+      <recent name="C:\Users\ameysami.SAYESAMAN\Desktop\android\sayesaman\src\org\sayesaman\app9\config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android Application.sayesaman">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Sayesaman" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="sayesaman" />
+      <option name="ACTIVITY_CLASS" value="org.sayesaman.app1.SplashScreen_" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="sktheme" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="sktheme" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AdvancedMapViewer" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="AdvancedMapViewer" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="sayesaman" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="sayesaman" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.Sayesaman" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.sktheme" />
+      <item index="2" class="java.lang.String" itemvalue="Android Application.AdvancedMapViewer" />
+      <item index="3" class="java.lang.String" itemvalue="Android Application.sayesaman" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="true">C:\Users\ameysami\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c69c20f2-e7eb-4531-99e0-5191ef6e4b23" name="Default" comment="" />
+      <created>1353583749074</created>
+      <updated>1353583749074</updated>
+      <workItem from="1376552657284" duration="172000" />
+      <workItem from="1376552891159" duration="2568000" />
+      <workItem from="1376555495345" duration="5132000" />
+      <workItem from="1376562740243" duration="775000" />
+      <workItem from="1376564057561" duration="10469000" />
+      <workItem from="1376575375576" duration="1739000" />
+      <workItem from="1376733780234" duration="10984000" />
+      <workItem from="1376751420710" duration="1538000" />
+      <workItem from="1376805241708" duration="21769000" />
+      <workItem from="1376845618184" duration="1814000" />
+      <workItem from="1376847592479" duration="2598000" />
+      <workItem from="1376896029090" duration="28768000" />
+      <workItem from="1376935644330" duration="10351000" />
+      <workItem from="1376946548964" duration="1735000" />
+      <workItem from="1376948312321" duration="1029000" />
+      <workItem from="1376949359232" duration="3615000" />
+      <workItem from="1376954068124" duration="3859000" />
+      <workItem from="1377004597523" duration="7457000" />
+      <workItem from="1377079890766" duration="3048000" />
+      <workItem from="1377086644889" duration="385000" />
+      <workItem from="1377087058333" duration="2882000" />
+      <workItem from="1377092553689" duration="2711000" />
+      <workItem from="1377108962800" duration="5838000" />
+      <workItem from="1377154795667" duration="303000" />
+      <workItem from="1377155117596" duration="2005000" />
+      <workItem from="1377157152262" duration="540000" />
+      <workItem from="1377157993936" duration="1920000" />
+      <workItem from="1377160002107" duration="87000" />
+      <workItem from="1377160181713" duration="122000" />
+      <workItem from="1377160340442" duration="3378000" />
+      <workItem from="1377171761070" duration="6801000" />
+      <workItem from="1377320718273" duration="12706000" />
+      <workItem from="1377348050158" duration="462000" />
+      <workItem from="1377348835529" duration="2299000" />
+      <workItem from="1377408615150" duration="1318000" />
+      <workItem from="1377415871824" duration="708000" />
+      <workItem from="1377416589324" duration="1452000" />
+      <workItem from="1377421936246" duration="4670000" />
+      <workItem from="1377432057268" duration="239000" />
+      <workItem from="1377433031138" duration="2289000" />
+      <workItem from="1377435623208" duration="5042000" />
+      <workItem from="1377493791919" duration="2869000" />
+      <workItem from="1377498765123" duration="865000" />
+      <workItem from="1377500330525" duration="16290000" />
+      <workItem from="1377519179684" duration="3030000" />
+      <workItem from="1377522349079" duration="1347000" />
+      <workItem from="1377524709113" duration="14373000" />
+      <workItem from="1377546047327" duration="3553000" />
+      <workItem from="1377549992452" duration="4717000" />
+      <workItem from="1377678337783" duration="218000" />
+      <workItem from="1377678597595" duration="7342000" />
+      <workItem from="1377687799027" duration="2081000" />
+      <workItem from="1377690422491" duration="894000" />
+      <workItem from="1377691333123" duration="2431000" />
+      <workItem from="1378569977374" duration="1044000" />
+      <workItem from="1378574648327" duration="875000" />
+      <workItem from="1378575581250" duration="5441000" />
+      <workItem from="1378622075137" duration="5557000" />
+      <workItem from="1378627823457" duration="13707000" />
+      <workItem from="1378643675467" duration="12917000" />
+      <workItem from="1378660864871" duration="408000" />
+      <workItem from="1378661290947" duration="411000" />
+      <workItem from="1378661756628" duration="17304000" />
+      <workItem from="1378739077581" duration="11434000" />
+      <workItem from="1378751379722" duration="15137000" />
+      <workItem from="1378819283299" duration="5761000" />
+      <workItem from="1378825450674" duration="3836000" />
+      <workItem from="1378829571248" duration="1806000" />
+      <workItem from="1378831427440" duration="1956000" />
+      <workItem from="1378833426309" duration="3979000" />
+      <workItem from="1378876869525" duration="1599000" />
+      <workItem from="1378878594480" duration="3076000" />
+      <workItem from="1378881925717" duration="19607000" />
+      <workItem from="1378907961103" duration="10103000" />
+      <workItem from="1378919485592" duration="8231000" />
+      <workItem from="1378970427802" duration="4130000" />
+      <workItem from="1378974767338" duration="29855000" />
+      <workItem from="1379016425350" duration="10414000" />
+      <workItem from="1379027299449" duration="3634000" />
+      <workItem from="1379047496440" duration="29172000" />
+      <workItem from="1379086188969" duration="14064000" />
+      <workItem from="1379105061180" duration="1241000" />
+      <workItem from="1379140872678" duration="23180000" />
+      <workItem from="1379165928315" duration="1091000" />
+      <workItem from="1379241414040" duration="8954000" />
+      <workItem from="1379309623230" duration="24520000" />
+      <workItem from="1379338210911" duration="6674000" />
+      <workItem from="1379353899543" duration="15915000" />
+      <workItem from="1379404040960" duration="44619000" />
+      <workItem from="1379489961884" duration="10078000" />
+      <workItem from="1379506859966" duration="183000" />
+      <workItem from="1379762920885" duration="4314000" />
+      <workItem from="1379769366422" duration="5604000" />
+      <workItem from="1379780575259" duration="577000" />
+      <workItem from="1379781229876" duration="10124000" />
+      <workItem from="1379791391245" duration="678000" />
+      <workItem from="1379925299095" duration="904000" />
+      <workItem from="1379926791119" duration="11572000" />
+      <workItem from="1379911700692" duration="27047000" />
+      <workItem from="1380005020596" duration="27973000" />
+      <workItem from="1380084272665" duration="1000000" />
+      <workItem from="1380086490610" duration="645000" />
+      <workItem from="1380087271791" duration="41515000" />
+      <workItem from="1380355991794" duration="5272000" />
+      <workItem from="1380437261424" duration="66000" />
+      <workItem from="1380457005311" duration="1523000" />
+      <workItem from="1381069175542" duration="2341000" />
+      <workItem from="1381223884055" duration="14683000" />
+      <workItem from="1381294912677" duration="1184000" />
+      <workItem from="1381401855960" duration="2778000" />
+      <workItem from="1381410106336" duration="144000" />
+      <workItem from="1381413936095" duration="985000" />
+      <workItem from="1381416531826" duration="839000" />
+      <workItem from="1381418195509" duration="615000" />
+      <workItem from="1381999779640" duration="657000" />
+      <workItem from="1382159697656" duration="10006000" />
+      <workItem from="1382178467649" duration="773000" />
+      <workItem from="1382183489515" duration="357000" />
+      <workItem from="1382189965350" duration="4426000" />
+      <workItem from="1382195655453" duration="622000" />
+      <workItem from="1382206285509" duration="31000" />
+      <workItem from="1382868910136" duration="869000" />
+      <workItem from="1382870144145" duration="8415000" />
+      <workItem from="1383034475554" duration="501000" />
+      <workItem from="1383477041015" duration="7541000" />
+      <workItem from="1383630076754" duration="1081000" />
+      <workItem from="1385198150332" duration="1141000" />
+      <workItem from="1385362485277" duration="2715000" />
+      <workItem from="1385371962631" duration="34000" />
+      <workItem from="1385544992488" duration="6449000" />
+      <workItem from="1385567893949" duration="5802000" />
+      <workItem from="1385794331013" duration="19775000" />
+      <workItem from="1385819959007" duration="4601000" />
+      <workItem from="1385872474088" duration="23903000" />
+      <workItem from="1385902614904" duration="2687000" />
+    </task>
+    <task id="LOCAL-00001" summary="اضافه کردن&#10;Expandable List  View&#10;">
+      <created>1377117019619</created>
+      <updated>1377117019619</updated>
+    </task>
+    <task id="LOCAL-00002" summary="اضافه کردن&#10;Expandable List  View&#10;">
+      <created>1377496510599</created>
+      <updated>1377496510600</updated>
+    </task>
+    <task id="LOCAL-00003" summary="استفاده از Threa جهت نمایش لیست مشتریان">
+      <created>1377539632679</created>
+      <updated>1377539632679</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Thank You&#10;">
+      <created>1377552680812</created>
+      <updated>1377552680812</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1392 - 06 - 17&#10;آیتم کارایی کامل شده است">
+      <created>1378617052643</created>
+      <updated>1378617052643</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1392 - 06 - 17&#10;">
+      <created>1378639461498</created>
+      <updated>1378639461498</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1392 - 06 - 20">
+      <created>1378886795919</created>
+      <updated>1378886795919</updated>
+    </task>
+    <task id="LOCAL-00008" summary="1392 - 06 - 25&#10;آخرین تغییرات در مورخ">
+      <created>1379315187053</created>
+      <updated>1379315187053</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1392 - 06 - 31&#10;آخرین تغییرات در مورخ">
+      <created>1379887552575</created>
+      <updated>1379887552575</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="874269000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1288" height="1004" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983682" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997669" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22144522" sideWeight="0.49675852" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2439222" sideWeight="0.4289044" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23543124" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45571095" sideWeight="0.5037879" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32750583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31685576" sideWeight="0.17715618" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.7762238" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1993517" sideWeight="0.7097902" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2902098" sideWeight="0.5032415" order="2" side_tool="false" content_ui="tabs" x="24" y="254" width="1232" height="181" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="96" y="96" width="1088" height="580" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28687197" sideWeight="0.76456875" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.67150635" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.76456875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5362776" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.52331" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849365" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="96" y="96" width="1088" height="580" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28687197" sideWeight="0.76456875" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983682" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22144522" sideWeight="0.49675852" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32750583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1993517" sideWeight="0.7097902" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2902098" sideWeight="0.5032415" order="2" side_tool="false" content_ui="tabs" x="24" y="254" width="1232" height="181" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.67150635" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.76456875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5362776" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.52331" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997669" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2439222" sideWeight="0.4289044" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23543124" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849365" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45571095" sideWeight="0.5037879" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31685576" sideWeight="0.17715618" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.7762238" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="1392 - 06 - 31&#10;آخرین تغییرات در مورخ" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="1392 - 06 - 20" />
+    <MESSAGE value="1392 - 06 - 25&#10;آخرین تغییرات در مورخ" />
+    <MESSAGE value="1392 - 06 - 31&#10;آخرین تغییرات در مورخ" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/org/sayesaman/bpp7/DamageGoods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="457" column="0" selection-start="20605" selection-end="21209" vertical-scroll-proportion="0.9">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/sayesaman/bpp7/OrderSubGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="186" column="85" selection-start="6678" selection-end="6678" vertical-scroll-proportion="0.16239317">
+          <folding>
+            <element signature="e#1973#1984#0" expanded="false" />
+            <element signature="e#2077#2089#0" expanded="false" />
+            <element signature="method#configImageButton#0;class#OrderSubGroup#0" expanded="false" />
+            <element signature="method#openDialogOrder#0;class#OrderSubGroup#0" expanded="false" />
+            <element signature="method#openDialogDamage#0;class#OrderSubGroup#0" expanded="false" />
+            <element signature="method#configHeaderTitle#0;class#OrderSubGroup#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/dao_damage.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="47" selection-start="4688" selection-end="4717" vertical-scroll-proportion="0.7139423" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/sayesaman/bpp7/DamageSubGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="225" column="20" selection-start="8065" selection-end="8077" vertical-scroll-proportion="0.6730769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/sayesaman/bpp7/AdapterSpinnerBuyType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="27" selection-start="985" selection-end="985" vertical-scroll-proportion="0.5108173" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/bpp7_order_header.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.6951673" />
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/bpp7_goodsgrpoup_order_header.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="41" selection-start="399" selection-end="399" vertical-scroll-proportion="0.10532837" />
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/bpp7_goodsgrpoup_order.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="50" selection-start="392" selection-end="392" vertical-scroll-proportion="0.18959108" />
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/sayesaman/database/dao/DamageDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="45" selection-start="4474" selection-end="4474" vertical-scroll-proportion="0.44951922">
+          <folding>
+            <element signature="docComment;class#DamageDao#0" expanded="false" />
+            <element signature="method#getAll#0;class#DamageDao#0" expanded="false" />
+            <element signature="method#getOneDamageWithItemsById#0;class#DamageDao#0" expanded="false" />
+            <element signature="method#getDamageItems#0;class#DamageDao#0" expanded="false" />
+            <element signature="method#getDamageStatusAll#0;class#DamageDao#0" expanded="false" />
+            <element signature="method#getDamageStatusByIdAndMainGoodsGroupAndSubGoodsGroup#0;class#DamageDao#0" expanded="false" />
+            <element signature="method#getDamageStatusByIdAndMainGoodsGroup#0;class#DamageDao#0" expanded="false" />
+            <element signature="method#getDamageStatusById#0;class#DamageDao#0" expanded="false" />
+            <element signature="method#getDamageItemsForNewDamage#0;class#DamageDao#0" expanded="false" />
+            <element signature="method#saveItem#0;class#DamageDao#0" expanded="false" />
+            <element signature="method#newOrderItemId#0;class#DamageDao#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/sayesaman/app2/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="13" selection-start="3510" selection-end="3510" vertical-scroll-proportion="0.16605617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/sayesaman/bpp3/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="81" selection-start="2631" selection-end="2631" vertical-scroll-proportion="0.453125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="33" selection-start="175" selection-end="175" vertical-scroll-proportion="0.061298076">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/dao_goodsgroup.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="13" selection-start="5201" selection-end="5201" vertical-scroll-proportion="0.5660377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/sayesaman/database/dao/GoodsGroupDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="195" column="88" selection-start="6679" selection-end="6679" vertical-scroll-proportion="0.3631579">
+          <folding>
+            <element signature="method#getList2#0;class#GoodsGroupDao#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/sayesaman/bpp7/DamageMainGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="224" column="55" selection-start="7957" selection-end="7957" vertical-scroll-proportion="0.55263156">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1802#1814#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/sayesaman/bpp7/OrderMainGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="293" column="66" selection-start="11271" selection-end="11271" vertical-scroll-proportion="0.77524036">
+          <folding>
+            <element signature="e#2591#2600#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>sayesaman</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>android-viewbadger</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

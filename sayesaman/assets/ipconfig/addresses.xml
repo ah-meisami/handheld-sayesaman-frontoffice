@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<addresses>
+    <myplace>
+        <local>true</local>
+    </myplace>
+    <local>
+        <part1>172</part1>
+        <part2>16</part2>
+        <part3>0</part3>
+        <part4>17</part4>
+        <port>9030</port>
+    </local>
+    <web>
+        <part1>85</part1>
+        <part2>133</part2>
+        <part3>190</part3>
+        <part4>39</part4>
+        <port>5151</port>
+    </web>
+</addresses>

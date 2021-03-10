@@ -1,0 +1,2 @@
+Force dialog to take up full screen width
+http://blog.jamesbaca.net/?p=465

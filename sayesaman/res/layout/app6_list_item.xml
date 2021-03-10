@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selector"
+                android:orientation="horizontal"
+                android:padding="5dip">
+
+    <LinearLayout android:id="@+id/thumbnail"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentRight="true"
+                  android:layout_marginRight="5dip"
+                  android:padding="3dip"
+                  android:layout_alignParentStart="false"
+                  android:layout_alignParentEnd="true">
+
+
+        <ImageView
+                android:id="@+id/sub_group_image"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_gravity="top"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/image_not_found"/>
+    </LinearLayout>
+
+    <!-- Rightend Duration -->
+    <TextView
+            android:id="@+id/sub_group_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="false"
+            android:layout_alignTop="@+id/imageView1"
+            android:gravity="right"
+            android:text="20"
+            android:layout_marginRight="5dip"
+            android:textSize="10dip"
+            android:textColor="#44bcc9"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"/>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/navigation_previous_item"/>
+
+    <TextView
+            android:id="@+id/sub_group_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/goodsGroupImage"
+            android:layout_toLeftOf="@+id/thumbnail"
+            android:layout_marginLeft="75dip"
+            android:layout_centerVertical="true"
+            android:paddingBottom="9dip"
+            android:text="گروه شربت"
+            android:textColor="#040404"
+            android:textSize="20dip"/>
+
+</RelativeLayout>

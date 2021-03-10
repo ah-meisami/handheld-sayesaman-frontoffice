@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weather>
+    <weatherdata>
+        <id>11</id>
+        <city>
+                آبميوه های 200
+        </city>
+        <icon>alifard_200</icon>
+    </weatherdata>
+
+    <weatherdata>
+        <id>12</id>
+        <city>
+            آبميوه های 250
+        </city>
+        <icon>alifard_250</icon>
+    </weatherdata>
+
+    <weatherdata>
+        <id>13</id>
+        <city>
+            آبميوه های 350
+        </city>
+        <icon>alifard_350</icon>
+    </weatherdata>
+
+    <weatherdata>
+        <id>14</id>
+        <city>
+            آبميوه های 500
+        </city>
+        <icon>alifard_500</icon>
+    </weatherdata>
+
+
+    <weatherdata>
+        <id>15</id>
+        <city>
+            آبميوه های 1000
+        </city>
+        <icon>alifard_1000</icon>
+    </weatherdata>
+
+    <weatherdata>
+        <id>16</id>
+        <city>
+            سن ايچ کول
+        </city>
+        <icon>alifard_cool</icon>
+    </weatherdata>
+
+    <weatherdata>
+        <id>17</id>
+        <city>
+شربت گالن
+        </city>
+        <icon>alifard_juice_gallon</icon>
+    </weatherdata>
+
+    <weatherdata>
+        <id>18</id>
+        <city>
+            شربت شيشه
+        </city>
+        <icon>alifard_juice_glass</icon>
+    </weatherdata>
+
+    <weatherdata>
+        <id>19</id>
+        <city>
+            شريسا
+        </city>
+        <icon>alifard_sherisa</icon>
+    </weatherdata>
+</Weather>

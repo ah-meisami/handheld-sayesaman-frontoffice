@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:showDividers="beginning|middle|end"
+              android:background="#DBDBFF"
+              android:measureWithLargestChild="false"
+              android:gravity="right"
+              android:minHeight="50dp">
+    <!--================================================================================================================================-->
+
+    <org.sayesaman.customeviews.CustomTextView
+            android:id="@+id/bpp1_footer_records"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:textSize="17dp"
+            android:textColor="#000000"
+            android:gravity="center_vertical|center_horizontal|right"
+            android:text="54"
+            android:textIsSelectable="false"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+
+    <org.sayesaman.customeviews.CustomTextView
+            android:id="@+id/bpp1_footer_records_"
+            android:layout_width="200dp"
+            android:layout_height="fill_parent"
+            android:textSize="17dp"
+            android:textColor="#000000"
+            android:gravity="center_vertical|center_horizontal|left"
+            android:text="تعداد رکورد :  "
+            android:textIsSelectable="false"
+            android:layout_gravity="center"/>
+
+    <org.sayesaman.customeviews.CustomTextView
+            android:id="@+id/bpp1_footer_date2"
+            android:layout_width="200dp"
+            android:layout_height="fill_parent"
+            android:textSize="17dp"
+            android:textColor="#000000"
+            android:gravity="center_vertical|center_horizontal|right"
+            android:text="1392/06/31"
+            android:layout_gravity="center"
+            android:textIsSelectable="false"
+            android:singleLine="false"/>
+
+    <org.sayesaman.customeviews.CustomTextView
+            android:id="@+id/bpp1_footer_date2_"
+            android:layout_width="200dp"
+            android:layout_height="fill_parent"
+            android:textSize="17dp"
+            android:textColor="#000000"
+            android:gravity="center_vertical|center_horizontal|left"
+            android:text="محاسبات تا مورخ :  "
+            android:layout_gravity="center"/>
+
+    <org.sayesaman.customeviews.CustomTextView
+            android:id="@+id/bpp1_footer_date1"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:textSize="17dp"
+            android:textColor="#000000"
+            android:gravity="center_vertical|right"
+            android:text="1392/06/01"
+            android:layout_gravity="center"/>
+
+    <org.sayesaman.customeviews.CustomTextView
+            android:id="@+id/bpp1_footer_date1_"
+            android:layout_width="170dp"
+            android:layout_height="fill_parent"
+            android:textSize="17dp"
+            android:textColor="#000000"
+            android:gravity="center_vertical|center_horizontal|left"
+            android:text="محاسبات از مورخ :  "
+            android:layout_gravity="center"/>
+
+    <!--================================================================================================================================-->
+</LinearLayout>

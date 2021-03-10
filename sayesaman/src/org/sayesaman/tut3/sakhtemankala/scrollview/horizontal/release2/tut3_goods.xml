@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content">
+    <!--================================================================================================================================-->
+    <!-- WE SET THE WIDTH OF EACH ITEM BY DFINING THE SIZE OF ImageView -->
+    <ImageView
+            android:id="@+id/productImg"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sakhtemankala1"
+            android:gravity="right"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"/>"
+
+    <TextView
+            android:id="@+id/rowNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:textColor="#fffff542"
+            android:gravity="center_horizontal"
+            android:text="1"
+            android:layout_gravity="center"/>
+
+    <TextView
+            android:id="@+id/productName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:text="آجر سفال"
+            android:layout_gravity="center"/>
+    <!--================================================================================================================================-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:id="@+id/tut3_list_property_head"
+                  android:orientation="vertical"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:background="#fffffd7c">
+    </LinearLayout>
+    <!--================================================================================================================================-->
+</LinearLayout>
+

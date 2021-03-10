@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableRow04"
+    style="@style/table_technical_row_m"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="right" >
+
+    <TextView
+        android:id="@+id/txt_technical_type"
+        style="@style/table_technical_txt_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txt_technical_type_cap"
+        style="@style/table_technical_txt_m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="نوع:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</TableRow>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/compareTableBorder" >
+
+    <com.example.sktheme.ScrollCompare
+        android:id="@+id/compare_right_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <include
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                layout="@layout/compair_detail_item_main" />
+        </LinearLayout>
+    </com.example.sktheme.ScrollCompare>
+
+    <HorizontalScrollView
+        android:id="@+id/compair_horizontalScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="1dp"
+        android:layout_toLeftOf="@+id/compare_right_scroll" >
+
+ <LinearLayout
+     android:id="@+id/compair_horizontalLinearLayout"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+      >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/compare_item_header_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="horizontal" >
+
+            </LinearLayout>
+
+            <com.example.sktheme.ScrollCompare
+                android:id="@+id/compare_left_scroll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:id="@+id/compare_item_detail_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:orientation="horizontal" >
+
+                </LinearLayout>
+
+            </com.example.sktheme.ScrollCompare>
+
+        </LinearLayout>
+
+       
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="198dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_toRightOf="@+id/compair_horizontalScrollView"
+        android:background="#ffffffff"
+        android:padding="20dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/compair_horizontalScrollView"
+        android:background="#ffffffff" >
+
+    </LinearLayout>
+
+</RelativeLayout>

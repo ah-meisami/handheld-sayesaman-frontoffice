@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:custom="http://schemas.android.com/apk/res-auto"
+                android:background="#777777"
+                android:orientation="horizontal"
+                android:layout_height="35dp"
+                android:layout_width="fill_parent">
+
+    <org.sayesaman.customeviews.CustomTextView
+            android:id="@+id/app3_header_desc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="شرکت پخش سايه سمن"
+            custom:font="Titr"
+            android:textColor="#ffffff"
+            android:textSize="16dip"
+            android:layout_gravity="center_vertical"
+            android:layout_centerInParent="true"/>
+
+    <org.sayesaman.customeviews.CustomTextView
+            android:id="@+id/app3_header_desc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="کاتالوگ محصولات"
+            custom:font="Titr"
+            android:textColor="#ffffff"
+            android:textSize="16dip"
+            android:textAlignment="center"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
